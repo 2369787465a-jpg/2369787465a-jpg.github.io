@@ -23,6 +23,7 @@ redirect_from:
   <div class="link-pills">
     <a class="link-pill" href="mailto:lh481@student.le.ac.uk">Email</a>
     <a class="link-pill" href="/files/resume/lifeng-han-resume.pdf">Resume PDF</a>
+    <a class="link-pill" href="https://github.com/2369787465a-jpg">GitHub</a>
     <a class="link-pill" href="/publications/">Projects & Achievements</a>
     <a class="link-pill" href="/#competitions">Competition Highlights</a>
   </div>
