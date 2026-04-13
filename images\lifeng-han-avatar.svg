@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="960" viewBox="0 0 800 960" fill="none">
+  <defs>
+    <linearGradient id="avatarGradient" x1="96" y1="72" x2="704" y2="888" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F4C75"/>
+      <stop offset="1" stop-color="#4A8DB7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="960" rx="48" fill="#F5FAFD"/>
+  <rect x="56" y="56" width="688" height="848" rx="40" fill="url(#avatarGradient)"/>
+  <circle cx="400" cy="360" r="170" fill="#FFFFFF" fill-opacity="0.14"/>
+  <circle cx="400" cy="330" r="92" fill="#F6FBFF" fill-opacity="0.96"/>
+  <path d="M220 730C220 622.857 306.857 536 414 536H386C493.143 536 580 622.857 580 730V760H220V730Z" fill="#F6FBFF" fill-opacity="0.96"/>
+  <text x="400" y="870" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="122" font-weight="700" fill="#F6FBFF">LH</text>
+</svg>
