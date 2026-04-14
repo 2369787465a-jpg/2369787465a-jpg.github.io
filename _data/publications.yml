@@ -1,200 +1,99 @@
 home_limit: 3
 
 quartile_note:
-  en: "A small selection of projects, papers, and competition experiences from my undergraduate work."
-  zh: "这里保留了一部分本科阶段的项目、论文与竞赛经历。"
+  en: "This public page intentionally keeps only a brief overview."
+  zh: "这个公开页面只保留了非常简要的背景信息。"
 
 items:
-  - id: tsp-enhanced-strategies
-    section: research
+  - id: research-overview
+    section: overview
     badge:
-      en: "Undergraduate Project"
-      zh: "本科项目"
-    image: "/images/publications/tsp-enhanced-strategies.svg"
-    alt: "Deep reinforcement learning project for the traveling salesman problem"
-    title: "Improved DRL Solver for the Traveling Salesman Problem with Enhanced Strategies"
+      en: "Overview"
+      zh: "概览"
+    image: "/images/publications/research-overview.svg"
+    alt: "Overview of undergraduate research interests"
+    title: "Research Interests"
     authors:
       en: "<strong>Lifeng Han</strong>"
       zh: "<strong>韩立峰</strong>"
     meta:
       home:
-        en: "Sep. 2025 - Present"
-        zh: "2025 年 9 月至今"
+        en: "Undergraduate research interests"
+        zh: "本科阶段的研究兴趣"
       full:
-        en: "Provincial Undergraduate Innovation & Entrepreneurship Training Program | Sep. 2025 - Present"
-        zh: "省级大学生创新创业训练计划项目 | 2025 年 9 月至今"
+        en: "A brief overview of the topics I have been exploring during undergraduate study."
+        zh: "对我本科阶段持续关注方向的一份简要概览。"
     summary:
-      en: "An ongoing project on reinforcement learning methods for the traveling salesman problem."
-      zh: "一个围绕旅行商问题强化学习方法展开的在研项目。"
+      en: "My public page only keeps a high-level note about the topics I have been exploring during undergraduate study."
+      zh: "公开页面中只保留了我本科阶段探索过的一些方向性信息。"
     bullets:
       en:
-        - "Built and tested a reinforcement learning pipeline for TSP instances."
-        - "Explored encoder design, mixed local search actions, and feasibility constraints."
-        - "Used PPO-based training and curriculum-style experiments for larger instances."
+        - "Interested in optimization and reinforcement learning."
+        - "Also explored data analysis and machine learning in course and project settings."
+        - "Detailed project write-ups are not posted publicly."
       zh:
-        - "搭建并测试了一个面向 TSP 实例的强化学习求解流程。"
-        - "尝试了编码器设计、局部搜索动作与可行性约束的结合。"
-        - "使用 PPO 与课程式训练方式进行实验。"
+        - "主要兴趣包括优化与强化学习。"
+        - "也在课程和项目实践中接触过数据分析与机器学习。"
+        - "更详细的项目说明不在公开页面展示。"
 
-  - id: cluster-aware-vrp
-    section: research
+  - id: experience-overview
+    section: overview
     badge:
-      en: "Research Project"
-      zh: "科研项目"
-    sci:
-      en: "Q2 SCI"
-      zh: "SCI Q2"
-    image: "/images/publications/cluster-aware-vrp.svg"
-    alt: "Cluster-aware vehicle routing research based on deep reinforcement learning"
-    title: "Research on a Cluster-Aware Vehicle Routing Solver Based on Deep Reinforcement Learning"
+      en: "Overview"
+      zh: "概览"
+    image: "/images/publications/experience-overview.svg"
+    alt: "Overview of experience categories"
+    title: "Academic Activities"
     authors:
       en: "<strong>Lifeng Han</strong>"
       zh: "<strong>韩立峰</strong>"
     meta:
       home:
-        en: "Sep. 2023 - Present"
-        zh: "2023 年 9 月至今"
+        en: "Selected undergraduate activities"
+        zh: "本科阶段的若干经历类型"
       full:
-        en: "Cluster-aware routing research project | Sep. 2023 - Present"
-        zh: "聚类感知路径优化研究项目 | 2023 年 9 月至今"
+        en: "This public profile keeps only broad categories of my undergraduate activities."
+        zh: "这个公开主页只保留了本科阶段活动类型的概括信息。"
     summary:
-      en: "A routing project that combines simulation data, transformer-based modeling, and reinforcement learning."
-      zh: "一个结合仿真数据、Transformer 建模与强化学习的路径优化项目。"
+      en: "My experience mainly comes from coursework, project practice, team activities, and short academic programs."
+      zh: "我的主要经历来自课程实践、项目训练、团队活动以及短期学术项目。"
     bullets:
       en:
-        - "Built simulation datasets for clustered routing settings."
-        - "Tested a dual-encoder and dual-decoder structure for route decisions."
-        - "Implemented the training pipeline in PyTorch and completed basic comparison experiments."
+        - "Course and project work in quantitative and computational topics."
+        - "Team-based practice involving analysis and problem solving."
+        - "Short academic or practical programs."
       zh:
-        - "构建了带聚类特征的路径优化仿真数据集。"
-        - "测试了双编码器和双解码器的路径决策结构。"
-        - "使用 PyTorch 搭建训练流程，并完成了基础对比实验。"
+        - "课程与项目中的定量和计算类实践。"
+        - "围绕分析与问题求解展开的团队合作经历。"
+        - "短期学术或实践项目经历。"
 
-  - id: ozone-downscaling
-    section: research
+  - id: privacy-note
+    section: overview
     badge:
-      en: "Applied ML Project"
-      zh: "应用机器学习项目"
-    image: "/images/publications/ozone-downscaling.svg"
-    alt: "Physics-consistent machine learning for ozone downscaling"
-    title: "Physics-Consistent Machine Learning for High-Resolution Ozone Downscaling"
-    authors:
-      en: "Co-first author project"
-      zh: "共同第一作者项目"
-    meta:
-      home:
-        en: "Greater Bay Area ozone prediction | Nov. 2025 - Dec. 2025"
-        zh: "大湾区臭氧降尺度预测 | 2025 年 11 月至 12 月"
-      full:
-        en: "Co-first author | High-resolution ozone downscaling in the Greater Bay Area | Nov. 2025 - Dec. 2025"
-        zh: "共同第一作者 | 大湾区高分辨率臭氧降尺度研究 | 2025 年 11 月至 12 月"
-    summary:
-      en: "A short project on high-resolution ozone prediction using multi-source environmental data."
-      zh: "一个使用多源环境数据进行高分辨率臭氧预测的短期项目。"
-    bullets:
-      en:
-        - "Integrated simulation outputs, meteorological variables, and monitoring observations."
-        - "Compared Random Forest, MLP, and XGBoost for the prediction task."
-        - "Used SHAP analysis for a basic interpretation of model behavior."
-      zh:
-        - "整合了模拟输出、气象变量和地面监测观测数据。"
-        - "比较了 Random Forest、MLP 和 XGBoost 等模型。"
-        - "使用 SHAP 对模型结果做了基础解释。"
-
-  - id: cipae-2025
-    section: paper
-    badge:
-      en: "Accepted Paper"
-      zh: "录用论文"
-    image: "/images/publications/cipae-2025.svg"
-    alt: "Accepted paper at CIPAE 2025"
-    title: "Multidimensional Metrics Analysis Based on K-Means Clustering and LSTM-Multi-Period DiD"
-    title_url: "/files/resume/lifeng-han-resume.pdf"
+      en: "Public Note"
+      zh: "公开说明"
+    image: "/images/publications/privacy-overview.svg"
+    alt: "Privacy note for public academic profile"
+    title: "Public Page Policy"
     authors:
       en: "<strong>Lifeng Han</strong>"
       zh: "<strong>韩立峰</strong>"
     meta:
       home:
-        en: "IEEE CPS | Accepted in Oct. 2025"
-        zh: "IEEE CPS | 2025 年 10 月录用"
+        en: "Detailed CV available privately when needed"
+        zh: "详细材料按需私下提供"
       full:
-        en: "Accepted paper in the 2025 6th International Conference on Computers, Information Processing and Advanced Education | IEEE Conference Publishing Services"
-        zh: "录用于 2025 第六届计算机、信息处理与高级教育国际会议 | IEEE Conference Publishing Services"
+        en: "This public site does not include my full CV, supporting documents, or detailed application materials."
+        zh: "这个公开网站不放置完整简历、证明材料或申请细节。"
     summary:
-      en: "An accepted paper developed from my mathematical modeling work on cybersecurity policy analysis."
-      zh: "一篇由网络安全政策分析建模工作整理而来的录用论文。"
+      en: "If detailed materials are needed for academic applications or formal review, they can be shared privately."
+      zh: "如果申请或正式审核需要更详细材料，可以通过私下方式提供。"
     bullets:
       en:
-        - "Built around clustering, LSTM, and DID-based analysis."
-        - "Organized competition research into a formal paper."
-        - "Accepted by CIPAE 2025 and to appear in IEEE CPS."
+        - "No full public CV is posted here."
+        - "No detailed supporting documents are stored on the public site."
+        - "Please contact me by email if a fuller profile is needed."
       zh:
-        - "工作围绕聚类、LSTM 与 DID 分析展开。"
-        - "将竞赛研究进一步整理成正式论文。"
-        - "论文已被 CIPAE 2025 接收，并由 IEEE CPS 出版。"
-    links:
-      - url: "/files/resume/lifeng-han-resume.pdf"
-        label:
-          en: "Resume PDF"
-          zh: "PDF 简历"
-
-  - id: kaggle-ml-mania-2026
-    section: achievement
-    badge:
-      en: "Kaggle Competition"
-      zh: "Kaggle 竞赛"
-    image: "/images/highlights/kaggle-bronze-2026.png"
-    alt: "Kaggle March Machine Learning Mania 2026 bronze medal certificate"
-    title: "March Machine Learning Mania 2026"
-    meta:
-      home:
-        en: "Awarded on Apr. 8, 2026 | Rank 240/3462 teams"
-        zh: "2026 年 4 月 8 日获奖 | 3462 支队伍中排名 240"
-      full:
-        en: "Kaggle competition credential | Username: hlf111 | Bronze medal"
-        zh: "Kaggle 竞赛认证 | 用户名 hlf111 | 铜牌成绩"
-    summary:
-      en: "A public competition result from March Machine Learning Mania 2026."
-      zh: "March Machine Learning Mania 2026 的公开竞赛成绩。"
-    bullets:
-      en:
-        - "Placed 240th among 3,462 teams."
-        - "Used repeated leaderboard-based iteration during the competition."
-        - "Serves as a practical supplement to my coursework and project experience."
-      zh:
-        - "在 3462 支队伍中排名第 240。"
-        - "比赛过程中围绕排行榜反馈不断调整方案。"
-        - "作为课程与项目经历之外的一个实践补充。"
-    links:
-      - url: "/images/highlights/kaggle-bronze-2026.png"
-        label:
-          en: "View certificate"
-          zh: "查看证书"
-
-  - id: modeling-awards
-    section: achievement
-    badge:
-      en: "Modeling Competitions"
-      zh: "数学建模竞赛"
-    image: "/images/publications/modeling-awards.svg"
-    alt: "Mathematical modeling competition highlights"
-    title: "Mathematical Modeling Competition Highlights"
-    meta:
-      home:
-        en: "CUMCM 2025, ICM 2025, and APMCM 2024"
-        zh: "2025 国赛、2025 美赛、2024 亚太赛"
-      full:
-        en: "Provincial Third Prize in CUMCM 2025, Meritorious Winner in ICM 2025, and First Prize in APMCM 2024"
-        zh: "2025 全国大学生数学建模竞赛省三等奖、2025 美赛 Meritorious Winner、2024 亚太地区数学建模竞赛一等奖"
-    summary:
-      en: "Selected mathematical modeling experiences from undergraduate competitions."
-      zh: "本科阶段参加过的几次数学建模竞赛经历。"
-    bullets:
-      en:
-        - "CUMCM 2025: built a pipeline with linear mixed models, Weibull AFT, and two-stage XGBoost on 1,082 maternal clinical records."
-        - "ICM 2025: analyzed cybersecurity policy effectiveness across 113 countries using clustering, LSTM, DID, and sensitivity analysis."
-        - "APMCM 2024: modeled the global pet industry with ARIMA, grey forecasting, PSO, and differential equations under tariff shocks."
-      zh:
-        - "2025 国赛中处理 1082 条孕产妇临床记录，构建线性混合模型、Weibull AFT 与两阶段 XGBoost 流程。"
-        - "2025 美赛中围绕 113 个国家的网络安全政策效果，完成聚类、LSTM、DID 与敏感性分析。"
-        - "2024 亚太赛中结合 ARIMA、灰色预测、粒子群优化与微分方程建模分析全球宠物产业。"
+        - "这里不公开完整简历。"
+        - "这里不公开具体证明材料。"
+        - "如果确有需要，可以通过邮件联系我。"
