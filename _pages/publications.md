@@ -1,49 +1,29 @@
 ---
 permalink: /publications/
-title: "Projects & Achievements"
+title: "Brief Profile"
 excerpt: ""
 lang: en
 lang_switch_label: "中文"
 lang_switch_url: "/zh/publications/"
 author_profile: true
 author_bio: "B.Sc. student in Foundations of Mathematical Science at Dalian University of Technology"
-sidebar_intro: "A short selection of projects and competition experiences from my undergraduate work."
+sidebar_intro: "This public page keeps only a brief overview."
 ---
 
-# Selected Projects
+# Brief Profile
 
-<p class="page-lead">This page keeps a concise record of several projects, papers, and competition experiences from my undergraduate stage.</p>
+<p class="page-lead">This page intentionally keeps only limited public information. Detailed CV materials, supporting documents, and application-specific content are not posted online.</p>
 
 <div class="link-pills">
   <a class="link-pill" href="/">Back to Homepage</a>
-  <a class="link-pill" href="/files/resume/lifeng-han-resume.pdf">Resume PDF</a>
   <a class="link-pill" href="mailto:lh481@student.le.ac.uk">Email</a>
+  <a class="link-pill" href="https://github.com/2369787465a-jpg">GitHub</a>
 </div>
 
 <p class="section-note">{{ site.data.publications.quartile_note.en }}</p>
 
 {% assign publications = site.data.publications.items %}
 
-## Research Projects
-
 {% for publication in publications %}
-  {% if publication.section == 'research' %}
-    {% include publication-card.html publication=publication lang='en' variant='full' %}
-  {% endif %}
-{% endfor %}
-
-## Papers
-
-{% for publication in publications %}
-  {% if publication.section == 'paper' %}
-    {% include publication-card.html publication=publication lang='en' variant='full' %}
-  {% endif %}
-{% endfor %}
-
-## Competitions
-
-{% for publication in publications %}
-  {% if publication.section == 'achievement' %}
-    {% include publication-card.html publication=publication lang='en' variant='full' %}
-  {% endif %}
+  {% include publication-card.html publication=publication lang='en' variant='full' %}
 {% endfor %}
