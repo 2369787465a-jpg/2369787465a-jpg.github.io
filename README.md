@@ -1,6 +1,6 @@
-# Lifeng Han Resume Site
+# Lifeng Han Public Academic Profile
 
-This repository hosts my personal resume website built with Jekyll and GitHub Pages.
+This repository hosts a brief public academic profile built with Jekyll and GitHub Pages.
 
 Live site:
 
@@ -9,9 +9,9 @@ Live site:
 Main highlights:
 
 - Bilingual personal homepage in English and Chinese
-- Research projects in reinforcement learning, combinatorial optimization, and applied machine learning
-- Competition achievements including Kaggle and mathematical modeling awards
-- Downloadable PDF resume
+- Brief background, interests, and contact information
+- Lightweight public-facing profile for academic applications
+- Detailed CV materials are shared privately when needed
 
 Local source directory:
 
