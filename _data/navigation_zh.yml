@@ -3,20 +3,17 @@ main:
   - title: "简介"
     url: "/zh/#about"
 
-  - title: "研究方向"
+  - title: "兴趣方向"
     url: "/zh/#research"
 
-  - title: "项目成果"
+  - title: "简要背景"
     url: "/zh/publications/"
 
-  - title: "竞赛经历"
-    url: "/zh/#competitions"
-
-  - title: "科研与实习"
+  - title: "背景概况"
     url: "/zh/#experience"
 
   - title: "教育背景"
     url: "/zh/#education"
 
-  - title: "荣誉奖项"
+  - title: "联系方式"
     url: "/zh/#honors"
