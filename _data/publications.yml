@@ -1,15 +1,15 @@
-home_limit: 4
+home_limit: 3
 
 quartile_note:
-  en: "This page mixes selected research projects, paper outputs, and competition credentials from my current resume."
-  zh: "本页汇总了我当前简历中的代表性科研项目、论文成果与竞赛证明。"
+  en: "A small selection of projects, papers, and competition experiences from my undergraduate work."
+  zh: "这里保留了一部分本科阶段的项目、论文与竞赛经历。"
 
 items:
   - id: tsp-enhanced-strategies
     section: research
     badge:
-      en: "Provincial Innovation Program | Leader"
-      zh: "省级大创项目 | 负责人"
+      en: "Undergraduate Project"
+      zh: "本科项目"
     image: "/images/publications/tsp-enhanced-strategies.svg"
     alt: "Deep reinforcement learning project for the traveling salesman problem"
     title: "Improved DRL Solver for the Traveling Salesman Problem with Enhanced Strategies"
@@ -18,29 +18,29 @@ items:
       zh: "<strong>韩立峰</strong>"
     meta:
       home:
-        en: "Leader | Sep. 2025 - Present"
-        zh: "负责人 | 2025 年 9 月至今"
+        en: "Sep. 2025 - Present"
+        zh: "2025 年 9 月至今"
       full:
-        en: "Provincial Undergraduate Innovation & Entrepreneurship Training Program | Project leader | Sep. 2025 - Present"
-        zh: "省级大学生创新创业训练计划项目 | 项目负责人 | 2025 年 9 月至今"
+        en: "Provincial Undergraduate Innovation & Entrepreneurship Training Program | Sep. 2025 - Present"
+        zh: "省级大学生创新创业训练计划项目 | 2025 年 9 月至今"
     summary:
-      en: "Designed a traveling salesman problem solver that combines a DACT-style encoder, synthetic attention, mixed 2-opt/3-opt actions, feasibility masking, and PPO-based curriculum learning."
-      zh: "面向旅行商问题设计了结合 DACT 风格编码器、合成注意力、2-opt/3-opt 混合动作空间、可行性掩码与 PPO 课程学习的强化学习求解器。"
+      en: "An ongoing project on reinforcement learning methods for the traveling salesman problem."
+      zh: "一个围绕旅行商问题强化学习方法展开的在研项目。"
     bullets:
       en:
-        - "Benchmarked TSPLIB instances against strong routing baselines and redesigned the path representation with a DACT encoder, context positional encoding, and synthetic attention."
-        - "Built a decoding strategy over mixed 2-opt and 3-opt moves, using feasibility masking to suppress invalid topological operations during search."
-        - "Trained the policy with PPO and curriculum learning to improve convergence speed and generalization on larger instances."
+        - "Built and tested a reinforcement learning pipeline for TSP instances."
+        - "Explored encoder design, mixed local search actions, and feasibility constraints."
+        - "Used PPO-based training and curriculum-style experiments for larger instances."
       zh:
-        - "以 TSPLIB 数据集为基准，对比多种经典算法，并设计了结合上下文位置编码与合成注意力的路径表示方式。"
-        - "构建支持 2-opt 与 3-opt 的混合动作解码策略，并通过可行性掩码抑制无效拓扑操作。"
-        - "采用 PPO 与课程学习联合训练，在收敛速度和大规模实例泛化上取得改进。"
+        - "搭建并测试了一个面向 TSP 实例的强化学习求解流程。"
+        - "尝试了编码器设计、局部搜索动作与可行性约束的结合。"
+        - "使用 PPO 与课程式训练方式进行实验。"
 
   - id: cluster-aware-vrp
     section: research
     badge:
-      en: "First-author Manuscript | Under Review"
-      zh: "一作论文 | 在审"
+      en: "Research Project"
+      zh: "科研项目"
     sci:
       en: "Q2 SCI"
       zh: "SCI Q2"
@@ -52,29 +52,29 @@ items:
       zh: "<strong>韩立峰</strong>"
     meta:
       home:
-        en: "First author | Sep. 2023 - Present"
-        zh: "第一作者 | 2023 年 9 月至今"
+        en: "Sep. 2023 - Present"
+        zh: "2023 年 9 月至今"
       full:
-        en: "First-author project on cluster-aware pickup and delivery routing | Sep. 2023 - Present"
-        zh: "面向聚类感知取送货路径优化的一作项目 | 2023 年 9 月至今"
+        en: "Cluster-aware routing research project | Sep. 2023 - Present"
+        zh: "聚类感知路径优化研究项目 | 2023 年 9 月至今"
     summary:
-      en: "Constructed clustered and uniform simulation datasets, designed a dual-encoder transformer with masked intra-cluster attention, and built a dynamic dual-decoder for routing decisions."
-      zh: "构建聚类与均匀分布仿真数据集，设计带簇内掩码注意力的双编码器 Transformer，并提出动态双解码器完成路径决策。"
+      en: "A routing project that combines simulation data, transformer-based modeling, and reinforcement learning."
+      zh: "一个结合仿真数据、Transformer 建模与强化学习的路径优化项目。"
     bullets:
       en:
-        - "Defined an MDP for clustered routing and created PDP10-80 benchmarks that reflect region-node structure in urban logistics."
-        - "Combined global attention and masked intra-cluster attention to preserve both whole-route context and local cluster structure."
-        - "Implemented end-to-end PyTorch training with POMO-style sampling efficiency improvements and completed ablation plus cross-scale generalization analysis."
+        - "Built simulation datasets for clustered routing settings."
+        - "Tested a dual-encoder and dual-decoder structure for route decisions."
+        - "Implemented the training pipeline in PyTorch and completed basic comparison experiments."
       zh:
-        - "以城市物流中的区域-节点结构为出发点，建立了带聚类特征的 MDP 建模与 PDP10-80 仿真基准。"
-        - "通过全局注意力与簇内掩码注意力的双编码器设计，同时保留全局上下文与局部聚类结构。"
-        - "基于 PyTorch 完成端到端训练，并结合 POMO 思路提升采样效率，验证了模型的消融表现与跨尺度泛化能力。"
+        - "构建了带聚类特征的路径优化仿真数据集。"
+        - "测试了双编码器和双解码器的路径决策结构。"
+        - "使用 PyTorch 搭建训练流程，并完成了基础对比实验。"
 
   - id: ozone-downscaling
     section: research
     badge:
-      en: "Co-first Author Project"
-      zh: "共同一作项目"
+      en: "Applied ML Project"
+      zh: "应用机器学习项目"
     image: "/images/publications/ozone-downscaling.svg"
     alt: "Physics-consistent machine learning for ozone downscaling"
     title: "Physics-Consistent Machine Learning for High-Resolution Ozone Downscaling"
@@ -89,30 +89,30 @@ items:
         en: "Co-first author | High-resolution ozone downscaling in the Greater Bay Area | Nov. 2025 - Dec. 2025"
         zh: "共同第一作者 | 大湾区高分辨率臭氧降尺度研究 | 2025 年 11 月至 12 月"
     summary:
-      en: "Integrated chemical transport simulations, ERA5 meteorology, and monitoring observations into a heterogeneous feature system, then benchmarked interpretable machine learning models for refined ozone prediction."
-      zh: "将化学输送模式输出、ERA5 气象数据与地面监测观测整合为异构特征体系，并比较多种可解释机器学习模型以实现精细化臭氧预测。"
+      en: "A short project on high-resolution ozone prediction using multi-source environmental data."
+      zh: "一个使用多源环境数据进行高分辨率臭氧预测的短期项目。"
     bullets:
       en:
-        - "Integrated GEOS-Chem outputs, ERA5 meteorological variables, and ground-station measurements for multi-source feature engineering."
-        - "Benchmarked Random Forest, MLP, and XGBoost, and selected XGBoost as the most effective model through statistical comparison."
-        - "Used SHAP analysis to reveal temperature-driven nonlinear ozone formation patterns and validate consistency with atmospheric photochemistry."
+        - "Integrated simulation outputs, meteorological variables, and monitoring observations."
+        - "Compared Random Forest, MLP, and XGBoost for the prediction task."
+        - "Used SHAP analysis for a basic interpretation of model behavior."
       zh:
-        - "融合 GEOS-Chem、ERA5 与地面站观测数据，构建面向臭氧精细化预测的多源异构特征工程系统。"
-        - "比较 Random Forest、MLP 与 XGBoost 等模型，并通过统计检验确认 XGBoost 表现最优。"
-        - "利用 SHAP 解释分析揭示温度主导的非线性臭氧生成机制与滴定效应，验证结果符合大气光化学规律。"
+        - "整合了模拟输出、气象变量和地面监测观测数据。"
+        - "比较了 Random Forest、MLP 和 XGBoost 等模型。"
+        - "使用 SHAP 对模型结果做了基础解释。"
 
   - id: cipae-2025
     section: paper
     badge:
-      en: "CIPAE 2025 | Accepted"
-      zh: "CIPAE 2025 | 已录用"
+      en: "Accepted Paper"
+      zh: "录用论文"
     image: "/images/publications/cipae-2025.svg"
     alt: "Accepted paper at CIPAE 2025"
     title: "Multidimensional Metrics Analysis Based on K-Means Clustering and LSTM-Multi-Period DiD"
     title_url: "/files/resume/lifeng-han-resume.pdf"
     authors:
-      en: "<strong>Lifeng Han</strong> | Co-first and corresponding author"
-      zh: "<strong>韩立峰</strong> | 共同一作兼通讯作者"
+      en: "<strong>Lifeng Han</strong>"
+      zh: "<strong>韩立峰</strong>"
     meta:
       home:
         en: "IEEE CPS | Accepted in Oct. 2025"
@@ -121,16 +121,16 @@ items:
         en: "Accepted paper in the 2025 6th International Conference on Computers, Information Processing and Advanced Education | IEEE Conference Publishing Services"
         zh: "录用于 2025 第六届计算机、信息处理与高级教育国际会议 | IEEE Conference Publishing Services"
     summary:
-      en: "This accepted paper studies cybersecurity policy effectiveness through clustering, LSTM modeling, and multi-period DID analysis across countries."
-      zh: "这篇已录用论文围绕网络安全政策效果评估展开，结合聚类分析、LSTM 建模与多期 DID 方法进行跨国研究。"
+      en: "An accepted paper developed from my mathematical modeling work on cybersecurity policy analysis."
+      zh: "一篇由网络安全政策分析建模工作整理而来的录用论文。"
     bullets:
       en:
-        - "Developed a combined K-means, LSTM, and multi-period DID pipeline to analyze national cybersecurity strategy and policy effects."
-        - "Translated a mathematical modeling research workflow into an accepted conference paper with me serving as co-first and corresponding author."
-        - "The paper was accepted by CIPAE 2025 and will be published through IEEE CPS."
+        - "Built around clustering, LSTM, and DID-based analysis."
+        - "Organized competition research into a formal paper."
+        - "Accepted by CIPAE 2025 and to appear in IEEE CPS."
       zh:
-        - "构建 K-means、LSTM 与多期 DID 联合分析框架，用于评估不同国家网络安全政策的实施效果。"
-        - "将数学建模竞赛中的研究工作进一步整理为正式论文，由我担任共同第一作者兼通讯作者。"
+        - "工作围绕聚类、LSTM 与 DID 分析展开。"
+        - "将竞赛研究进一步整理成正式论文。"
         - "论文已被 CIPAE 2025 接收，并由 IEEE CPS 出版。"
     links:
       - url: "/files/resume/lifeng-han-resume.pdf"
@@ -141,8 +141,8 @@ items:
   - id: kaggle-ml-mania-2026
     section: achievement
     badge:
-      en: "Kaggle | Bronze Medalist"
-      zh: "Kaggle | 铜牌"
+      en: "Kaggle Competition"
+      zh: "Kaggle 竞赛"
     image: "/images/highlights/kaggle-bronze-2026.png"
     alt: "Kaggle March Machine Learning Mania 2026 bronze medal certificate"
     title: "March Machine Learning Mania 2026"
@@ -154,17 +154,17 @@ items:
         en: "Kaggle competition credential | Username: hlf111 | Bronze medal"
         zh: "Kaggle 竞赛认证 | 用户名 hlf111 | 铜牌成绩"
     summary:
-      en: "Earned a bronze medal in a large-scale Kaggle competition, showing practical machine learning iteration ability under leaderboard-driven evaluation."
-      zh: "在大规模 Kaggle 机器学习竞赛中获得铜牌，体现了我在真实竞赛环境下快速迭代与验证模型的能力。"
+      en: "A public competition result from March Machine Learning Mania 2026."
+      zh: "March Machine Learning Mania 2026 的公开竞赛成绩。"
     bullets:
       en:
-        - "Placed 240th among 3,462 teams in March Machine Learning Mania 2026."
-        - "Built and refined competitive machine learning pipelines under strict public leaderboard feedback."
-        - "Added a practical, externally validated credential that complements my research and mathematical modeling experience."
+        - "Placed 240th among 3,462 teams."
+        - "Used repeated leaderboard-based iteration during the competition."
+        - "Serves as a practical supplement to my coursework and project experience."
       zh:
-        - "在 March Machine Learning Mania 2026 中取得 3462 支队伍第 240 名。"
-        - "围绕排行榜反馈不断迭代特征、验证策略与建模方案，形成稳定有效的竞赛工作流。"
-        - "这一公开竞赛成绩为我的科研与数学建模背景提供了额外的实践证明。"
+        - "在 3462 支队伍中排名第 240。"
+        - "比赛过程中围绕排行榜反馈不断调整方案。"
+        - "作为课程与项目经历之外的一个实践补充。"
     links:
       - url: "/images/highlights/kaggle-bronze-2026.png"
         label:
@@ -174,8 +174,8 @@ items:
   - id: modeling-awards
     section: achievement
     badge:
-      en: "Mathematical Modeling | Multi-award Record"
-      zh: "数学建模 | 多项获奖"
+      en: "Modeling Competitions"
+      zh: "数学建模竞赛"
     image: "/images/publications/modeling-awards.svg"
     alt: "Mathematical modeling competition highlights"
     title: "Mathematical Modeling Competition Highlights"
@@ -187,8 +187,8 @@ items:
         en: "Provincial Third Prize in CUMCM 2025, Meritorious Winner in ICM 2025, and First Prize in APMCM 2024"
         zh: "2025 全国大学生数学建模竞赛省三等奖、2025 美赛 Meritorious Winner、2024 亚太地区数学建模竞赛一等奖"
     summary:
-      en: "Built a strong record across national and international modeling competitions by combining statistics, optimization, machine learning, and scientific computing."
-      zh: "通过统计分析、优化建模、机器学习与科学计算的结合，在国内外数学建模竞赛中取得了稳定成绩。"
+      en: "Selected mathematical modeling experiences from undergraduate competitions."
+      zh: "本科阶段参加过的几次数学建模竞赛经历。"
     bullets:
       en:
         - "CUMCM 2025: built a pipeline with linear mixed models, Weibull AFT, and two-stage XGBoost on 1,082 maternal clinical records."

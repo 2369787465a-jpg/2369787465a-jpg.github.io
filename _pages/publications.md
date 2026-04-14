@@ -7,12 +7,12 @@ lang_switch_label: "中文"
 lang_switch_url: "/zh/publications/"
 author_profile: true
 author_bio: "B.Sc. student in Foundations of Mathematical Science at Dalian University of Technology"
-sidebar_intro: "Selected research projects, accepted papers, and competition credentials from my current resume."
+sidebar_intro: "A short selection of projects and competition experiences from my undergraduate work."
 ---
 
-# Projects and Achievements
+# Selected Projects
 
-<p class="page-lead">This page collects selected research projects, accepted paper outputs, and competition credentials from my current resume.</p>
+<p class="page-lead">This page keeps a concise record of several projects, papers, and competition experiences from my undergraduate stage.</p>
 
 <div class="link-pills">
   <a class="link-pill" href="/">Back to Homepage</a>
@@ -32,7 +32,7 @@ sidebar_intro: "Selected research projects, accepted papers, and competition cre
   {% endif %}
 {% endfor %}
 
-## Paper Output
+## Papers
 
 {% for publication in publications %}
   {% if publication.section == 'paper' %}
@@ -40,7 +40,7 @@ sidebar_intro: "Selected research projects, accepted papers, and competition cre
   {% endif %}
 {% endfor %}
 
-## Competition and Credential Highlights
+## Competitions
 
 {% for publication in publications %}
   {% if publication.section == 'achievement' %}
