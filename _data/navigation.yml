@@ -3,20 +3,17 @@ main:
   - title: "About"
     url: "/#about"
 
-  - title: "Research"
+  - title: "Interests"
     url: "/#research"
 
-  - title: "Projects"
+  - title: "Brief Profile"
     url: "/publications/"
 
-  - title: "Competitions"
-    url: "/#competitions"
-
-  - title: "Experience"
+  - title: "Background"
     url: "/#experience"
 
   - title: "Education"
     url: "/#education"
 
-  - title: "Honors"
+  - title: "Contact"
     url: "/#honors"
