@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Lifeng Han"
-description              : "Undergraduate student in mathematical sciences with interests in optimization, reinforcement learning, and data-driven modeling."
+description              : "Undergraduate student in mathematical sciences interested in optimization, reinforcement learning, and applied machine learning."
 repository               : "2369787465a-jpg/2369787465a-jpg.github.io"
 url                      : "https://2369787465a-jpg.github.io"
 baseurl                  : ""
@@ -31,8 +31,8 @@ author:
   pubmed           :
   googlescholar    :
   email            : "lh481@student.le.ac.uk"
-  phone            : "+86 133-3834-3517"
-  resume           : "/files/resume/lifeng-han-resume.pdf"
+  phone            :
+  resume           :
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              : "https://2369787465a-jpg.github.io/"
   bitbucket        :
