@@ -38,11 +38,11 @@ sidebar_intro: "University of Leicester · Dalian University of Technology. Expe
 </article><article class="timeline-card publication-card" id="paper-did">
   <span class="badge">Published</span>
   <h3>Multidimensional Metrics Analysis Based on K-Means Clustering and LSTM-Multi-Period DiD</h3>
-  <p class="publication-authors"><strong>Lifeng Han</strong>, Zhihan Zhang, Guanqi Wang</p>
+  <p class="publication-authors"><strong>Lifeng Han</strong><sup>†</sup>, Zhihan Zhang<sup>†</sup>, Guanqi Wang<sup>†</sup></p>
   <p class="publication-meta">The 6th International Conference on Computers, Information Processing and Advanced Education (CIPAE 2025)<br>IEEE CPS · August 2025 · pp. 74–79</p>
 <p>Clustering and LSTM-based counterfactual predictions combined with multi-period difference-in-differences to study cybercrime indicators and policy effects.</p>  <div class="pub-links">
 <a href="https://doi.org/10.1109/CIPAE66821.2025.00018">DOI</a></div>
-</article>  <p class="section-note"><sup>†</sup> Equal contribution (co-first authors).</p>
+</article>  <p class="section-note"><sup>†</sup> These authors contributed equally.</p>
 </section>
 
 <section class="contact-section" aria-labelledby="contact-heading">

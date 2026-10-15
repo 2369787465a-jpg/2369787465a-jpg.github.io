@@ -44,7 +44,9 @@ Open `http://127.0.0.1:4000/`. A plain file server cannot compile this Jekyll so
 - `_includes/author-profile.html`: original author profile and contact links.
 - `assets/css/main.scss` and `_sass/`: original white/blue theme with small responsive and accessibility additions.
 - `assets/js/site.js`: optional accessible mobile menu. Content, links, navigation, and disclosure sections work without JavaScript.
-- `assets/research/`: original architecture figures from the two research manuscripts.
+- `assets/research/`: original manuscript architecture figures, the CIPAE paper's scatterplot matrix, and the ozone report's spatial regridding figure.
+- `assets/competitions/`: original official Kaggle competition images, with source links in the page captions.
+- `assets/evidence/`: reviewed award-record and certificate crops; linked thumbnails open the full image.
 
 ## Portrait and later evidence
 
@@ -52,7 +54,11 @@ The original blue LH illustration is `images/lifeng-han-avatar.svg`. When an app
 
 The two project code links and manuscript PDFs point to their actual public GitHub repositories. The arXiv link is a preprint, labeled separately from the Applied Intelligence manuscript's **under revision** status. ICONIP 2026 is **accepted**; CIPAE 2025 is **published**. Update statuses only after an author-confirmed change or a verified publication record. Preserve complete author lists and co-first-author markers.
 
-Later additions may include an approved portrait, publication records, award certificates, a verified Kaggle profile, and verified academic identifiers. Add only real links and approved public copies. Remove private identifiers from certificates, and place evidence links beside the relevant award or publication. Current award entries do not imply that proof has been uploaded.
+All nine honors are visible in one list, ordered with the two academic excellence scholarships first, followed by ICM and the two Kaggle medals. Seven award entries link to reviewed proof crops. Scholarship screenshots are labeled approval records; the CUMCM proof is a Liaoning Division award-list excerpt. The NUS short-course entry links to its completion certificate. Competition year and award date are kept distinct for APMCM.
+
+The two education cards display selected completed module marks: eight Leicester courses above 90/100 and ten DUT courses above 95/100. Course names and marks were checked against the respective university records; the original transcripts are not published. The course selection and award order are maintained in `tools/content.json`.
+
+Research summaries distinguish the project method from Han's personal contribution. Equal-contribution markers follow each original paper, including all three authors of the CIPAE paper. Figure sources are recorded in [assets/README.md](assets/README.md). Later additions may include an approved portrait and verified academic identifiers.
 
 The full CV and application materials remain private. Do not commit the original CV PDF, preparation notes, private phone number, transcripts, or unsanitized certificates. Only `lh481@student.le.ac.uk` is public. Keep the universities' GPA scales and UoL-only rank distinct; graduation and First Class Honours are expected, not awarded.
 

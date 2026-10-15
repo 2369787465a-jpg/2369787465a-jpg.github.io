@@ -38,11 +38,11 @@ sidebar_intro: "莱斯特大学 · 大连理工大学. 预计毕业 · 2027 年 
 </article><article class="timeline-card publication-card" id="paper-did">
   <span class="badge">已发表</span>
   <h3>Multidimensional Metrics Analysis Based on K-Means Clustering and LSTM-Multi-Period DiD</h3>
-  <p class="publication-authors"><strong>Lifeng Han</strong>, Zhihan Zhang, Guanqi Wang</p>
+  <p class="publication-authors"><strong>Lifeng Han</strong><sup>†</sup>, Zhihan Zhang<sup>†</sup>, Guanqi Wang<sup>†</sup></p>
   <p class="publication-meta">The 6th International Conference on Computers, Information Processing and Advanced Education (CIPAE 2025)<br>IEEE CPS · 2025 年 8 月 · 第 74–79 页</p>
 <p>结合聚类、LSTM 反事实预测与多期双重差分，分析网络犯罪指标及政策效果。</p>  <div class="pub-links">
 <a href="https://doi.org/10.1109/CIPAE66821.2025.00018">DOI</a></div>
-</article>  <p class="section-note"><sup>†</sup> 同等贡献（共同第一作者）。</p>
+</article>  <p class="section-note"><sup>†</sup> 标注作者为同等贡献。</p>
 </section>
 
 <section class="contact-section" aria-labelledby="contact-heading">

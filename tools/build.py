@@ -21,10 +21,17 @@ def render() -> dict[str, str]:
                       undefined=StrictUndefined, trim_blocks=True, lstrip_blocks=True)
     # Optional links are deliberately absent rather than replaced with dummy URLs.
     for paper in content["publications"]:
-        for key in ("pdf", "code", "preprint", "doi"):
+        paper.setdefault("equal_author_count", 2 if paper["cofirst"] else 0)
+        for key in ("pdf", "code", "preprint", "doi", "evidence"):
             paper.setdefault(key, None)
-    for project in content["projects"]:
+    for project in content["projects"] + content.get("competitions", []):
         project.setdefault("publication", None)
+        for key in ("image", "image_source", "contribution", "evidence"):
+            project.setdefault(key, None)
+    for project in content["featured"]:
+        project.setdefault("contribution", None)
+    for item in content["awards"] + content["experience"]:
+        item.setdefault("evidence", None)
     template = env.get_template("page.html")
     pages = {}
     for lang, publications_page, destination in OUTPUTS:
