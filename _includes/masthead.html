@@ -1,28 +1,16 @@
 {% assign nav_links = site.data.navigation.main %}
-{% assign home_label = "Homepage" %}
-{% assign home_url = "/" %}
-{% if page.lang == "zh" %}
-  {% assign nav_links = site.data.navigation_zh.main %}
-  {% assign home_label = "主页" %}
-  {% assign home_url = "/zh/" %}
-{% endif %}
-
+{% assign home_label = 'Homepage' %}{% assign home_url = '/' %}{% assign menu_label = 'Menu' %}
+{% if page.lang == 'zh' %}{% assign nav_links = site.data.navigation_zh.main %}{% assign home_label = '主页' %}{% assign home_url = '/zh/' %}{% assign menu_label = '菜单' %}{% endif %}
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_url }}">{{ home_label }}</a></li>
-          {% for link in nav_links %}
-            <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-          {% if page.lang_switch_url %}
-            <li class="masthead__menu-item masthead__menu-item--lang"><a class="lang-switch" href="{{ page.lang_switch_url }}">{{ page.lang_switch_label }}</a></li>
-          {% endif %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
+  <div class="masthead__inner-wrap"><div class="masthead__menu">
+    <nav id="site-nav" class="greedy-nav" aria-label="{{ menu_label }}">
+      <a class="mobile-home" href="{{ home_url | relative_url }}">{{ home_label }}</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="masthead-links" hidden>{{ menu_label }} <span class="navicon" aria-hidden="true"></span></button>
+      <ul class="visible-links" id="masthead-links">
+        <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_url | relative_url }}">{{ home_label }}</a></li>
+        {% for link in nav_links %}<li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>{% endfor %}
+        <li class="masthead__menu-item masthead__menu-item--lang"><a class="lang-switch" href="{{ page.lang_switch_url | relative_url }}" lang="{% if page.lang == 'zh' %}en{% else %}zh-CN{% endif %}">{{ page.lang_switch_label }}</a></li>
+      </ul>
+    </nav>
+  </div></div>
 </div>

@@ -1,9 +1,8 @@
 ---
-layout: compress
 ---
 
 <!doctype html>
-<html lang="{{ page.lang | default: 'en' }}" class="no-js">
+<html lang="{% if page.lang == 'zh' %}zh-CN{% else %}en{% endif %}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -11,10 +10,12 @@ layout: compress
 
   <body>
 
+    <a class="skip-link" href="#main">{% if page.lang == 'zh' %}跳至正文{% else %}Skip to content{% endif %}</a>
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <div id="main" role="main" tabindex="-1">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">

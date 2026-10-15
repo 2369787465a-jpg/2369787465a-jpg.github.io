@@ -5,9 +5,15 @@
     "url": "https://2369787465a-jpg.github.io",
     "email": "lh481@student.le.ac.uk",
     "github": "https://github.com/2369787465a-jpg",
-    "portrait": null,
+    "portrait": "/images/lifeng-han-avatar.svg",
     "languages": ["C", "C++", "Java", "Python", "MATLAB", "R", "LaTeX"]
   },
+  "highlights": [
+    {"title": {"en": "Education", "zh": "教育背景"}, "lines": {"en": ["University of Leicester & DUT", "Joint undergraduate program", "Expected graduation: June 2027"], "zh": ["莱斯特大学与大连理工大学", "合作办学本科项目", "预计毕业：2027 年 6 月"]}},
+    {"title": {"en": "Research interests", "zh": "研究方向"}, "lines": {"en": ["Reinforcement learning & optimization", "Multi-view machine learning", "Mathematical statistics"], "zh": ["强化学习与优化", "多视图机器学习", "数理统计"]}},
+    {"title": {"en": "Publications", "zh": "学术论文"}, "lines": {"en": ["Applied Intelligence · Under revision", "ICONIP 2026 · Accepted", "CIPAE 2025 · Published"], "zh": ["Applied Intelligence · 修回中", "ICONIP 2026 · 已录用", "CIPAE 2025 · 已发表"]}},
+    {"title": {"en": "Research code", "zh": "研究代码"}, "lines": {"en": ["CAADRL / CluPDTSP", "MC-TRCM", "Code and manuscript PDFs available"], "zh": ["CAADRL / CluPDTSP", "MC-TRCM", "公开代码与论文 PDF"]}}
+  ],
   "publications": [
     {
       "id": "caadrl",

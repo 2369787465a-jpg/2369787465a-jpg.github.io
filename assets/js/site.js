@@ -1,9 +1,9 @@
 /* Progressive enhancement: navigation and all page content work without JS. */
 (() => {
   const button = document.querySelector('.menu-toggle');
-  const navigation = document.getElementById('site-navigation');
+  const navigation = document.getElementById('masthead-links');
   if (!button || !navigation || !window.matchMedia) return;
-  const mobile = window.matchMedia('(max-width: 760px)');
+  const mobile = window.matchMedia('(max-width: 1000px)');
   const setOpen = (open) => {
     button.setAttribute('aria-expanded', String(open));
     navigation.hidden = mobile.matches && !open;

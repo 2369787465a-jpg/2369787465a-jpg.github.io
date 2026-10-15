@@ -1,12 +1,19 @@
-# GitHub Pages copies the committed static pages. No Ruby build is needed locally.
+# Original Jekyll / Minimal Mistakes framework, deployed from main at /.
 title: Lifeng Han
-description: Mathematics undergraduate researching reinforcement learning, optimization, and multi-view machine learning.
+description: Mathematics undergraduate interested in reinforcement learning, optimization, and applied machine learning.
+repository: 2369787465a-jpg/2369787465a-jpg.github.io
 url: https://2369787465a-jpg.github.io
 baseurl: ""
-repository: 2369787465a-jpg/2369787465a-jpg.github.io
-encoding: utf-8
-timezone: Asia/Shanghai
-plugins: []
+author:
+  name: Lifeng Han
+  avatar: images/lifeng-han-avatar.svg
+  bio: Mathematics & Foundations of Mathematical Science undergraduate
+  location: Dalian, Liaoning, China
+  email: lh481@student.le.ac.uk
+  github: 2369787465a-jpg
+  uri: https://2369787465a-jpg.github.io/
+include:
+  - _pages
 exclude:
   - tools
   - README.md
@@ -14,19 +21,44 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - run_server.sh
-  - _pages
-  - _data
-  - _includes
-  - _layouts
-  - _sass
-  - assets/css/main.scss
-  - assets/css/academicons.css
-  - assets/css/academicons.min.css
-  - assets/css/collapse.css
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .github
+  - vendor
+  - node_modules
+  - images/wentao-wang.jpg
+  - images/favicon.ico
+  - images/favicon-16x16.png
+  - images/favicon-32x32.png
+  - images/apple-touch-icon.png
+  - images/android-chrome-192x192.png
+  - images/android-chrome-512x512.png
+  - images/site.webmanifest
   - assets/js/_main.js
   - assets/js/main.min.js
-  - assets/js/collapse.js
   - assets/js/plugins
   - assets/js/vendor
-  - assets/fonts
-  - images
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from

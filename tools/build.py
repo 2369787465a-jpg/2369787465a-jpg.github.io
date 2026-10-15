@@ -1,4 +1,4 @@
-"""Generate the four public pages. Run from any directory with Python 3.10+."""
+"""Generate four Jekyll page sources. Run from any directory with Python 3.10+."""
 from __future__ import annotations
 
 import argparse
@@ -9,9 +9,9 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
 
 ROOT = Path(__file__).resolve().parent.parent
-OUTPUTS = (("en", False, "index.html"), ("zh", False, "zh/index.html"),
-           ("en", True, "publications/index.html"),
-           ("zh", True, "zh/publications/index.html"))
+OUTPUTS = (("en", False, "_pages/about.md"), ("zh", False, "_pages/about_zh.md"),
+           ("en", True, "_pages/publications.md"),
+           ("zh", True, "_pages/publications_zh.md"))
 
 
 def render() -> dict[str, str]:
@@ -35,7 +35,22 @@ def render() -> dict[str, str]:
         copy = content["copy"][lang]
         page_title = (copy["publications_heading"] + " | " + content["site"]["name"]
                       if publications_page else copy["title"])
-        pages[destination] = template.render(
+        metadata = {
+            "layout": "default", "permalink": publications_url if publications_page else home_url,
+            "title": page_title, "excerpt": copy["description"], "lang": lang,
+            "lang_switch_label": copy["language"], "lang_switch_url": other_url,
+            "author_profile": True,
+            "author_name": content["site"]["name_zh"] if lang == "zh" else content["site"]["name"],
+            "author_avatar": content["site"]["portrait"] or "/images/lifeng-han-avatar.svg",
+            "author_bio": ("Mathematics & Foundations of Mathematical Science undergraduate"
+                           if lang == "en" else "数学与数理基础科学专业本科生"),
+            "sidebar_intro": copy["sidebar_universities"].replace("\n", " · ") + ". " + copy["sidebar_graduation"],
+        }
+        if lang == "en" and not publications_page:
+            metadata["redirect_from"] = ["/about/", "/about.html"]
+        frontmatter = "---\n" + "\n".join(
+            f"{key}: {json.dumps(value, ensure_ascii=False)}" for key, value in metadata.items()) + "\n---\n\n"
+        pages[destination] = frontmatter + template.render(
             **{key: value for key, value in content.items() if key != "copy"},
             publication_by_id={p["id"]: p for p in content["publications"]},
             t=copy, lang=lang, publications_page=publications_page,
