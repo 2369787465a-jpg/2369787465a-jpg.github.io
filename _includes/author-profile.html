@@ -7,7 +7,7 @@
 {% assign home_label = 'Website' %}
 {% if page.lang == 'zh' %}{% assign home_url = '/zh/' %}{% assign email_label = '邮箱' %}{% assign home_label = '主页' %}{% endif %}
 <div itemscope itemtype="https://schema.org/Person" class="profile_box">
-  <div class="author__avatar"><img src="{{ author_avatar | relative_url }}" class="author__avatar" alt="{{ author_name }}{% if author_avatar contains 'lifeng-han-avatar.svg' %} — LH illustration{% endif %}" width="175" height="210"></div>
+  <div class="author__avatar"><img src="{{ author_avatar | relative_url }}" class="author__avatar{% unless author_avatar contains 'lifeng-han-avatar.svg' %} author-avatar--portrait{% endunless %}" alt="{{ author_name }}{% if author_avatar contains 'lifeng-han-avatar.svg' %} — LH illustration{% endif %}" width="{{ page.author_avatar_width | default: 175 }}" height="{{ page.author_avatar_height | default: 210 }}"></div>
   <div class="author__content"><h3 class="author__name" itemprop="name">{{ author_name }}</h3><p class="author__bio">{{ author_bio }}</p></div>
   <div class="author__urls-wrapper">
     <ul class="author__urls social-icons">

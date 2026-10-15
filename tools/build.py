@@ -30,6 +30,7 @@ def render() -> dict[str, str]:
             project.setdefault(key, None)
     for project in content["featured"]:
         project.setdefault("contribution", None)
+        project.setdefault("layout", "split")
     for item in content["awards"] + content["experience"]:
         item.setdefault("evidence", None)
     template = env.get_template("page.html")
@@ -49,6 +50,8 @@ def render() -> dict[str, str]:
             "author_profile": True,
             "author_name": content["site"]["name_zh"] if lang == "zh" else content["site"]["name"],
             "author_avatar": content["site"]["portrait"] or "/images/lifeng-han-avatar.svg",
+            "author_avatar_width": content["site"].get("portrait_width", 175),
+            "author_avatar_height": content["site"].get("portrait_height", 210),
             "author_bio": ("Mathematics & Foundations of Mathematical Science undergraduate"
                            if lang == "en" else "数学与数理基础科学专业本科生"),
             "sidebar_intro": copy["sidebar_universities"].replace("\n", " · ") + ". " + copy["sidebar_graduation"],

@@ -421,6 +421,45 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .paper-box-text { min-width: 0; overflow-wrap: break-word; }
     .pub-links { margin-top: 0.9rem; }
 }
+.paper-box.paper-box--wide {
+    display: block;
+    padding: 1.6rem;
+
+    .paper-box-heading {
+        h3 { margin: 0 0 0.65rem; font-size: 1.28rem; line-height: 1.45; }
+        .publication-meta { margin-bottom: 1.25rem; }
+    }
+    .paper-box-figure {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto 1.35rem;
+        a { display: block; }
+        img {
+            display: block; width: 100%; height: auto; object-fit: contain;
+            border: 1px solid var(--homepage-line); border-radius: 14px;
+            box-shadow: 0 12px 24px rgba(17, 38, 60, 0.07);
+        }
+        figcaption { text-align: center; }
+    }
+    .paper-box-copy {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.6rem;
+        p { margin: 0; }
+        .project-contribution { font-size: inherit; }
+    }
+    .pub-links { margin-top: 1.15rem; }
+}
+.profile_box img.author-avatar--portrait {
+    display: block;
+    width: 100%;
+    max-width: 175px;
+    height: auto;
+    aspect-ratio: 1279 / 1791;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 18px;
+}
 .page__content {
     section { min-width: 0; }
     > section { margin-bottom: 1.8rem; }
@@ -451,6 +490,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
         figcaption { margin-top: 0.4rem; font-size: 12px; color: #5f7284; }
         figcaption a { color: inherit; }
     }
+    .project-card--publication .project-figure { max-width: 640px; margin: 1.1rem auto 1.25rem; }
+    .project-card--publication .project-figure figcaption { text-align: center; }
+    .more-research .timeline-card:last-child { margin-bottom: 0.75rem; }
+    .awards-collapse { margin-top: 1rem; padding-bottom: 0.85rem; }
+    .awards-collapse .awards-list { background: #fff; }
     .competition-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
     .competition-card { margin: 0; padding-left: 1.15rem; }
     .competition-card:before { display: none; }
@@ -502,11 +546,18 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .paper-box .paper-box-image { order: 1; margin-bottom: 1.2rem; }
     .paper-box .paper-box-text { order: 2; }
     .paper-box .paper-box-text h3 { font-size: 19px; }
+    .paper-box.paper-box--wide {
+        padding: 1.1rem;
+        .paper-box-heading h3 { font-size: 19px; }
+        .paper-box-figure { margin-bottom: 1.1rem; }
+        .paper-box-copy { grid-template-columns: 1fr; gap: 0.75rem; }
+    }
     .timeline-card { padding-right: 1rem; }
     .section-kicker { font-size: 11px; }
     .author__bio { font-size: 13px; }
     .profile_box .author__avatar { width: 67px; }
     .profile_box .author__avatar img { min-width: 67px; }
+    .profile_box img.author-avatar--portrait { width: 67px; border-radius: 12px; }
     .page__content {
         .competition-grid, .course-grades { grid-template-columns: 1fr; }
         .awards-list li { grid-template-columns: minmax(0, 1fr) 80px; gap: 0.4rem 0.7rem; padding: 0.9rem; }

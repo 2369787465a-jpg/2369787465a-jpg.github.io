@@ -5,7 +5,7 @@
     "url": "https://2369787465a-jpg.github.io",
     "email": "lh481@student.le.ac.uk",
     "github": "https://github.com/2369787465a-jpg",
-    "portrait": "/images/lifeng-han-avatar.svg",
+    "portrait": "/assets/portrait/lifeng-han.jpg",
     "languages": [
       "C",
       "C++",
@@ -14,7 +14,9 @@
       "MATLAB",
       "R",
       "LaTeX"
-    ]
+    ],
+    "portrait_width": 1279,
+    "portrait_height": 1791
   },
   "highlights": [
     {
@@ -215,7 +217,8 @@
         "zh": "模型架构 · 论文原图 2"
       },
       "image_width": 1601,
-      "image_height": 996
+      "image_height": 996,
+      "layout": "split"
     },
     {
       "publication": "mctrcm",
@@ -258,44 +261,46 @@
         "zh": "模型架构 · 论文原图 2"
       },
       "image_width": 1443,
-      "image_height": 505
-    },
+      "image_height": 505,
+      "layout": "wide"
+    }
+  ],
+  "projects": [
     {
       "publication": "did",
       "title": {
-        "en": "Cybercrime indicators & policy evaluation",
+        "en": "Multidimensional Metrics Analysis Based on K-Means Clustering and LSTM-Multi-Period DiD",
         "zh": "网络犯罪指标与政策效果评估"
-      },
-      "role": {
-        "en": "Project leader",
-        "zh": "项目负责人"
       },
       "dates": {
         "en": "Jan – May 2025",
         "zh": "2025.01 – 2025.05"
       },
-      "description": {
+      "role": {
+        "en": "Project leader",
+        "zh": "项目负责人"
+      },
+      "summary": {
         "en": "Analyzed crime, reporting, and prosecution indicators from 110 countries. Combined K-means, LSTM counterfactuals, and multi-period difference-in-differences to evaluate policies in China, Germany, and the United States. Published at CIPAE 2025.",
         "zh": "分析 110 个国家的犯罪、报案与起诉指标，结合 K-means、LSTM 反事实预测和多期双重差分，评估中国、德国与美国的政策效果。成果发表于 CIPAE 2025。"
-      },
-      "image": "/assets/research/cybercrime-pairwise-matrix.png",
-      "alt": {
-        "en": "Original CIPAE paper scatterplot matrix of cybersecurity, secure servers, education, income, inequality and internet use indicators.",
-        "zh": "CIPAE 原论文散点矩阵，展示网络安全、互联网服务器、教育、收入、收入不平等与互联网使用指标之间的关系。"
-      },
-      "image_width": 795,
-      "image_height": 730,
-      "figure_caption": {
-        "en": "Pairwise scatterplot matrix from the CIPAE 2025 paper (Fig. 6).",
-        "zh": "CIPAE 2025 论文中的变量成对散点矩阵（图 6）。"
       },
       "contribution": {
         "en": "I implemented K-means clustering, correlation analysis and visualizations, developed the LSTM–multi-period DiD experimental pipeline, and performed data cleaning and sensitivity analysis.",
         "zh": "我完成 K-means 聚类、相关分析与可视化，构建 LSTM–多期 DiD 实验流程，并开展数据清洗与敏感性分析。"
-      }
-    }
-  ],
-  "projects": [
+      },
+      "image": "/assets/research/cybercrime-gdp-cluster.png",
+      "alt": {
+        "en": "Original CIPAE figure showing crime, success, reporting, prosecution and GDP scatter distributions in the low-GDP country cluster.",
+        "zh": "CIPAE 原论文图，展示低 GDP 国家聚类组的犯罪、犯罪成功、报案、起诉与 GDP 指标散点分布。"
+      },
+      "image_width": 780,
+      "image_height": 830,
+      "image_caption": {
+        "en": "Scatterplot matrix for the low-GDP cluster · original paper, Fig. 3",
+        "zh": "GDP 聚类后的低 GDP 国家散点矩阵 · 论文原图 3"
+      },
+      "image_source": "https://doi.org/10.1109/CIPAE66821.2025.00018"
+    },
     {
       "title": {
         "en": "Empirical asset pricing & beta prediction",
@@ -529,8 +534,8 @@
         },
         {
           "name": {
-            "en": "Higher Algebra I",
-            "zh": "高等代数 I"
+            "en": "Linear Statistics",
+            "zh": "数理统计 II"
           },
           "grade": "98"
         }
@@ -753,8 +758,8 @@
     },
     {
       "title": {
-        "en": "Third Prize, Liaoning Division · CUMCM",
-        "zh": "全国大学生数学建模竞赛辽宁赛区三等奖"
+        "en": "Third Prize · CUMCM",
+        "zh": "全国大学生数学建模竞赛三等奖"
       },
       "date": "2025.09",
       "top": "15%",
@@ -778,15 +783,41 @@
         "zh": "大连理工大学精神文明奖学金"
       },
       "date": "2026.09",
-      "top": "10%"
+      "top": "10%",
+      "evidence": {
+        "image": "/assets/evidence/cultural-ethical-scholarship-2026.jpg",
+        "alt": {
+          "en": "Cultural and Ethical Progress Scholarship (2026): approved award record.",
+          "zh": "2026 年精神文明奖学金：审核通过记录。"
+        },
+        "label": {
+          "en": "Approval record",
+          "zh": "审核记录"
+        },
+        "width": 990,
+        "height": 465
+      }
     },
     {
       "title": {
         "en": "First Prize · English Weekly National Translation Competition for College Students",
-        "zh": "English Weekly 全国大学生翻译竞赛一等奖"
+        "zh": "全国大学生英语翻译能力竞赛一等奖"
       },
       "date": "2024.08",
-      "top": "5%"
+      "top": "5%",
+      "evidence": {
+        "image": "/assets/evidence/english-translation-first-prize-2024.jpg",
+        "alt": {
+          "en": "English Weekly National Translation Competition: First Prize certificate excerpt (2024).",
+          "zh": "2024 年第三届全国大学生英语翻译能力竞赛一等奖证书节选。"
+        },
+        "label": {
+          "en": "Award certificate",
+          "zh": "获奖证明"
+        },
+        "width": 1210,
+        "height": 1325
+      }
     }
   ],
   "copy": {
@@ -853,7 +884,8 @@
       "contribution": "My contribution",
       "competitions": "Kaggle competitions",
       "competition_page": "Official competition page",
-      "graded_courses": "Selected coursework · marks to date"
+      "graded_courses": "Selected coursework · marks to date",
+      "more_awards": "More honors & awards"
     },
     "zh": {
       "title": "韩立峰 | 数学与机器学习",
@@ -918,7 +950,8 @@
       "contribution": "个人分工",
       "competitions": "Kaggle 竞赛",
       "competition_page": "官方比赛页面",
-      "graded_courses": "已修专业课程成绩节选"
+      "graded_courses": "已修专业课程成绩节选",
+      "more_awards": "更多荣誉与奖励"
     }
   },
   "competitions": [

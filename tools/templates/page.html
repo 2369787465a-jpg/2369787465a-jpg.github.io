@@ -12,6 +12,9 @@
 {% macro project_figure(project) -%}
 {% if project.image %}<figure class="project-figure"><a href="{{ project.image }}" aria-label="{{ t.open_figure }}: {{ project.title[lang] }}"><img src="{{ project.image }}" alt="{{ project.alt[lang] }}" width="{{ project.image_width }}" height="{{ project.image_height }}" loading="lazy" decoding="async"></a>{% if project.image_source %}<figcaption><a href="{{ project.image_source }}">{{ project.image_caption[lang] }}</a></figcaption>{% else %}<figcaption>{{ project.image_caption[lang] }}</figcaption>{% endif %}</figure>{% endif %}
 {%- endmacro %}
+{% macro award_list(items) -%}
+<ul class="news-list awards-list">{% for award in items %}<li><span class="award-date">{{ award.date }}</span><div class="award-description">{{ award.title[lang] }} <span class="award-percent">({{ t.top }} {{ award.top }})</span></div>{{ evidence_link(award.evidence, award.title[lang], thumbnail=True) }}</li>{% endfor %}</ul>
+{%- endmacro %}
 {% macro publication(p) -%}
 <article class="timeline-card publication-card" id="paper-{{ p.id }}">
   <span class="badge">{{ p.status[lang] }}</span>
@@ -61,18 +64,27 @@
   <h2 id="projects-heading">{{ t.research_heading }}</h2>
   <p class="section-note">{{ t.research_intro }}</p>
   {% for project in featured %}{% set p = publication_by_id[project.publication] %}
+  {% if project.layout == 'wide' %}
+  <article class="paper-box paper-box--wide">
+    <header class="paper-box-heading"><span class="badge">{{ p.status[lang] }}</span><h3>{{ p.title }}</h3><p class="publication-meta">{{ project.role[lang] }}<br>{{ project.dates[lang] }}</p></header>
+    <figure class="paper-box-figure"><a href="{{ project.image }}" aria-label="{{ t.openimage }} — {{ p.title }}"><img src="{{ project.image }}" alt="{{ project.alt[lang] }}" width="{{ project.image_width }}" height="{{ project.image_height }}" loading="lazy" decoding="async"></a><figcaption class="figure-note">{{ project.figure_caption[lang] }}</figcaption></figure>
+    <div class="paper-box-copy"><p>{{ project.description[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}</div>
+    {{ paper_links(p) }}
+  </article>
+  {% else %}
   <article class="paper-box">
     <div class="paper-box-image"><div><span class="badge">{{ p.status[lang] }}</span><a href="{{ project.image }}" aria-label="{{ t.openimage }} — {{ p.title }}"><img src="{{ project.image }}" alt="{{ project.alt[lang] }}" width="{{ project.image_width }}" height="{{ project.image_height }}" loading="lazy" decoding="async"></a><p class="figure-note">{{ project.figure_caption[lang] }}</p></div></div>
     <div class="paper-box-text"><h3>{{ p.title }}</h3><p class="publication-meta">{{ project.role[lang] }}<br>{{ project.dates[lang] }}</p><p>{{ project.description[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{{ paper_links(p) }}</div>
   </article>
+  {% endif %}
   {% endfor %}
+  <details class="publication-collapse more-research"><summary>{{ t.more_projects }}</summary>
+    {% for project in projects %}<article class="timeline-card project-card{% if project.publication %} project-card--publication{% endif %}">{% if project.publication %}<span class="badge">{{ publication_by_id[project.publication].status[lang] }}</span>{% endif %}<h3>{{ project.title[lang] }}</h3><p class="timeline-meta">{{ project.role[lang] }} · {{ project.dates[lang] }}</p>{{ project_figure(project) }}<p>{{ project.summary[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{% if project.publication %}{{ paper_links(publication_by_id[project.publication]) }}{% endif %}</article>{% endfor %}
+  </details>
   <h3 class="subsection-heading">{{ t.competitions }}</h3>
   <div class="competition-grid">
     {% for project in competitions %}<article class="timeline-card competition-card">{{ project_figure(project) }}<h3>{{ project.title[lang] }}</h3><p class="timeline-meta">{{ project.role[lang] }} · {{ project.dates[lang] }}</p><p>{{ project.summary[lang] }}</p><div class="pub-links"><a href="{{ project.url }}">{{ t.competition_page }}</a></div>{{ evidence_link(project.evidence, project.title[lang]) }}</article>{% endfor %}
   </div>
-  <details class="publication-collapse"><summary>{{ t.more_projects }}</summary>
-    {% for project in projects %}<article class="timeline-card"><h3>{{ project.title[lang] }}</h3><p class="timeline-meta">{{ project.role[lang] }} · {{ project.dates[lang] }}</p>{{ project_figure(project) }}<p>{{ project.summary[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{% if project.publication %}{{ paper_links(publication_by_id[project.publication]) }}{% endif %}</article>{% endfor %}
-  </details>
 </section>
 
 <section aria-labelledby="publications-heading">
@@ -99,7 +111,8 @@
 <section aria-labelledby="honors-heading">
   <span class="anchor" id="honors"></span>
   <h2 id="honors-heading">{{ t.awards }}</h2>
-  <ul class="news-list awards-list">{% for award in awards %}<li><span class="award-date">{{ award.date }}</span><div class="award-description">{{ award.title[lang] }} <span class="award-percent">({{ t.top }} {{ award.top }})</span></div>{{ evidence_link(award.evidence, award.title[lang], thumbnail=True) }}</li>{% endfor %}</ul>
+  {{ award_list(awards[:6]) }}
+  <details class="publication-collapse awards-collapse"><summary>{{ t.more_awards }}</summary>{{ award_list(awards[6:]) }}</details>
 </section>
 
 <section aria-labelledby="skills-heading">

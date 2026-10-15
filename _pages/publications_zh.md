@@ -8,7 +8,9 @@ lang_switch_label: "English"
 lang_switch_url: "/publications/"
 author_profile: true
 author_name: "韩立峰"
-author_avatar: "/images/lifeng-han-avatar.svg"
+author_avatar: "/assets/portrait/lifeng-han.jpg"
+author_avatar_width: 1279
+author_avatar_height: 1791
 author_bio: "数学与数理基础科学专业本科生"
 sidebar_intro: "莱斯特大学 · 大连理工大学. 预计毕业 · 2027 年 6 月"
 ---

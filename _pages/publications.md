@@ -8,7 +8,9 @@ lang_switch_label: "中文"
 lang_switch_url: "/zh/publications/"
 author_profile: true
 author_name: "Lifeng Han"
-author_avatar: "/images/lifeng-han-avatar.svg"
+author_avatar: "/assets/portrait/lifeng-han.jpg"
+author_avatar_width: 1279
+author_avatar_height: 1791
 author_bio: "Mathematics & Foundations of Mathematical Science undergraduate"
 sidebar_intro: "University of Leicester · Dalian University of Technology. Expected graduation · June 2027"
 ---
