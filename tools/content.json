@@ -1,0 +1,170 @@
+{
+  "site": {
+    "name": "Lifeng Han",
+    "name_zh": "韩立峰",
+    "url": "https://2369787465a-jpg.github.io",
+    "email": "lh481@student.le.ac.uk",
+    "github": "https://github.com/2369787465a-jpg",
+    "portrait": null,
+    "languages": ["C", "C++", "Java", "Python", "MATLAB", "R", "LaTeX"]
+  },
+  "publications": [
+    {
+      "id": "caadrl",
+      "title": "Cluster-Aware Attention-Based Deep Reinforcement Learning for Pickup and Delivery Problems",
+      "authors": ["Wentao Wang", "Lifeng Han", "Guangyu Zou"],
+      "cofirst": true,
+      "status": {"en": "Under revision", "zh": "修回中"},
+      "status_class": "revision",
+      "venue": "Applied Intelligence",
+      "detail": {"en": "Manuscript under revision. An arXiv preprint is available separately.", "zh": "期刊稿件修回中；另有 arXiv 预印本。"},
+      "summary": {"en": "A clustering-aware attention model for neural pickup-and-delivery routing, with a multiscale encoder and a hierarchical dual-branch decoder.", "zh": "面向取送货路径优化的聚类感知注意力模型，结合多尺度编码器与分层双分支解码器。"},
+      "code": "https://github.com/2369787465a-jpg/CluPDTSP",
+      "pdf": "https://github.com/2369787465a-jpg/CluPDTSP/blob/main/Clupdtsp_main.pdf",
+      "preprint": "https://arxiv.org/abs/2603.10053"
+    },
+    {
+      "id": "mctrcm",
+      "title": "MC-TRCM: Observation-Aware Recursive Fusion for Incomplete Mobile and Wearable Mental-Health Feature Views",
+      "authors": ["Wentao Wang", "Lifeng Han", "Zining Ren", "Hengyu Zhong", "Guangyu Zou"],
+      "cofirst": true,
+      "status": {"en": "Accepted", "zh": "已录用"},
+      "status_class": "accepted",
+      "venue": "The 33rd International Conference on Neural Information Processing (ICONIP 2026)",
+      "detail": {"en": "Accepted for publication at ICONIP 2026.", "zh": "已获 ICONIP 2026 录用。"},
+      "summary": {"en": "Observation-aware feature-source tokens, missingness modeling, conditioned Transformer fusion, and recursive refinement for mental-health assessment.", "zh": "通过观测感知特征源 token、缺失模式建模、条件化 Transformer 融合和递归细化，开展心理健康评估。"},
+      "code": "https://github.com/2369787465a-jpg/MC-TRCM",
+      "pdf": "https://github.com/2369787465a-jpg/MC-TRCM/blob/main/main.pdf"
+    },
+    {
+      "id": "did",
+      "title": "Multidimensional Metrics Analysis Based on K-Means Clustering and LSTM-Multi-Period DiD",
+      "authors": ["Lifeng Han", "Zhihan Zhang", "Guanqi Wang"],
+      "cofirst": false,
+      "status": {"en": "Published", "zh": "已发表"},
+      "status_class": "published",
+      "venue": "The 6th International Conference on Computers, Information Processing and Advanced Education (CIPAE 2025)",
+      "detail": {"en": "IEEE CPS · August 2025 · pp. 74–79", "zh": "IEEE CPS · 2025 年 8 月 · 第 74–79 页"},
+      "summary": {"en": "Clustering and LSTM-based counterfactual predictions combined with multi-period difference-in-differences to study cybercrime indicators and policy effects.", "zh": "结合聚类、LSTM 反事实预测与多期双重差分，分析网络犯罪指标及政策效果。"},
+      "doi": "https://doi.org/10.1109/CIPAE66821.2025.00018"
+    }
+  ],
+  "featured": [
+    {
+      "publication": "caadrl",
+      "title": {"en": "Learning to route, across spatial scales.", "zh": "从空间聚类到路径决策。"},
+      "label": {"en": "Neural combinatorial optimization", "zh": "神经组合优化"},
+      "dates": {"en": "Sep 2025 – Jul 2026", "zh": "2025.09 – 2026.07"},
+      "role": {"en": "Project leader · Advisor: Prof. Guangyu Zou, DUT", "zh": "项目负责人 · 导师：大连理工大学 Guangyu Zou 教授"},
+      "description": {"en": "This project develops CAADRL for pickup-and-delivery problems with pairing and precedence constraints in spatially clustered instances. Global self-attention and intra-cluster attention capture multiscale structure; a hierarchical decoder handles route selection within and between clusters.", "zh": "本项目面向具有空间聚类结构的取送货问题，在配对与先后顺序约束下构建 CAADRL 模型。通过全局自注意力和簇内注意力提取多尺度空间特征，再以分层解码器处理簇内路径选择与簇间转移。"},
+      "image": "/assets/research/clupdtsp-architecture.png",
+      "alt": {"en": "CAADRL architecture from the research manuscript, showing its attention encoder and routing decoder.", "zh": "论文中的 CAADRL 模型架构，展示注意力编码器与路径解码器。"},
+      "tags": ["Reinforcement learning", "Attention", "Routing"]
+    },
+    {
+      "publication": "mctrcm",
+      "title": {"en": "Learning from incomplete views.", "zh": "让不完整观测参与有效融合。"},
+      "label": {"en": "Multi-view learning · Mental health", "zh": "多视图学习 · 心理健康"},
+      "dates": {"en": "Apr – Jul 2026", "zh": "2026.04 – 2026.07"},
+      "role": {"en": "Project leader · Advisor: Prof. Guangyu Zou, DUT", "zh": "项目负责人 · 导师：大连理工大学 Guangyu Zou 教授"},
+      "description": {"en": "This project proposes MC-TRCM to fuse heterogeneous mobile and wearable features under substantial missingness. Feature-source tokens and missing-aware gating feed a conditioned Transformer; recursive decoding refines predictions across six regression and classification tasks on DepreST-CAT and PSYCHE-D.", "zh": "本项目提出 MC-TRCM，在大量缺失观测下融合异构移动设备与可穿戴特征。以特征源 token 和缺失感知门控结合条件化 Transformer，再通过递归解码细化预测；在 DepreST-CAT 与 PSYCHE-D 的六个回归和分类任务上开展评估。"},
+      "image": "/assets/research/mctrcm-architecture.png",
+      "alt": {"en": "MC-TRCM architecture from the research manuscript, showing observation-aware tokens, fusion, and recursive refinement.", "zh": "论文中的 MC-TRCM 架构，展示观测感知 token、特征融合与递归细化。"},
+      "tags": ["Multi-view learning", "Missing data", "Transformer"]
+    }
+  ],
+  "projects": [
+    {
+      "title": {"en": "BirdCLEF+ 2026 · Soundscape recognition", "zh": "BirdCLEF+ 2026 · 自然声景识别"},
+      "dates": {"en": "Apr – Jun 2026", "zh": "2026.04 – 2026.06"},
+      "role": {"en": "Team leader", "zh": "团队负责人"},
+      "summary": {"en": "Multilabel audio recognition with EoS8, BirdNET, and PCEN ensembles; ranking correction, taxonomy smoothing, and temporal consistency. Kaggle bronze medal, top 8% (public 0.94221; private 0.95044).", "zh": "结合 EoS8、BirdNET 与 PCEN 的多标签音频集成，研究排序校正、分类学平滑与时序一致性。获 Kaggle 铜牌，前 8%（公榜 0.94221，私榜 0.95044）。"}
+    },
+    {
+      "title": {"en": "Empirical asset pricing & beta prediction", "zh": "实证资产定价与股票 Beta 预测"},
+      "dates": {"en": "Jul 2025 – Jan 2026", "zh": "2025.07 – 2026.01"},
+      "role": {"en": "Project leader · Advisor: Prof. Shuai Qiao, DUT", "zh": "项目负责人 · 导师：大连理工大学 Shuai Qiao 教授"},
+      "summary": {"en": "Studied the MAX anomaly in China’s A-share market using CSMAR data, portfolio sorting, Fama–MacBeth regressions, multifactor risk adjustment, and Newey–West inference; explored machine learning for dynamic beta prediction.", "zh": "基于 CSMAR 数据，运用投资组合排序、Fama–MacBeth 回归、多因子风险调整与 Newey–West 推断研究中国 A 股 MAX 异象，并探索机器学习动态 Beta 预测。"}
+    },
+    {
+      "title": {"en": "High-resolution ozone downscaling", "zh": "高分辨率臭氧降尺度预测"},
+      "dates": {"en": "Oct – Dec 2025", "zh": "2025.10 – 2025.12"},
+      "role": {"en": "Project leader · Advisor: Prof. Libin Jiao, DUT", "zh": "项目负责人 · 导师：大连理工大学 Libin Jiao 教授"},
+      "summary": {"en": "Combined GEOS-Chem, ERA5, and ground observations on a 0.01° × 0.01° grid. Compared tree and neural models with cross-validation, Model Confidence Set testing, and SHAP analysis of atmospheric-chemistry consistency.", "zh": "融合 GEOS-Chem、ERA5 与地面监测数据，统一到 0.01° × 0.01° 网格。比较树模型与神经网络，以交叉验证、模型置信集检验与 SHAP 分析评估性能及大气化学一致性。"}
+    },
+    {
+      "title": {"en": "Cybercrime indicators & policy evaluation", "zh": "网络犯罪指标与政策效果评估"},
+      "dates": {"en": "Jan – May 2025", "zh": "2025.01 – 2025.05"},
+      "role": {"en": "Project leader", "zh": "项目负责人"},
+      "summary": {"en": "Analyzed crime, reporting, and prosecution indicators from 110 countries. Combined K-means, LSTM counterfactuals, and multi-period difference-in-differences to evaluate policies in China, Germany, and the United States. Published at CIPAE 2025.", "zh": "分析 110 个国家的犯罪、报案与起诉指标，结合 K-means、LSTM 反事实预测和多期双重差分，评估中国、德国与美国的政策效果。成果发表于 CIPAE 2025。"},
+      "publication": "did"
+    }
+  ],
+  "education": [
+    {
+      "name": {"en": "University of Leicester", "zh": "莱斯特大学"},
+      "degree": {"en": "BSc in Mathematics", "zh": "数学理学学士"},
+      "dates": {"en": "Sep 2023 – Jun 2027 (expected)", "zh": "2023.09 – 2027.06（预计）"},
+      "metrics": {"en": "90.48 / 100 · Rank 4 / 99", "zh": "90.48 / 100 · 排名 4 / 99"},
+      "note": {"en": "Expected First Class Honours · English-medium instruction", "zh": "预计获得一等荣誉学位 · 全英文授课"},
+      "courses": {"en": "Calculus and analysis; statistical inference; Markov processes; mathematical foundations of AI and ML; algorithms and data structures.", "zh": "微积分与分析、统计推断、马尔可夫过程、人工智能与机器学习数学基础、算法与数据结构。"}
+    },
+    {
+      "name": {"en": "Dalian University of Technology", "zh": "大连理工大学"},
+      "degree": {"en": "BSc in Foundations of Mathematical Science", "zh": "数理基础科学理学学士"},
+      "dates": {"en": "Sep 2023 – Jun 2027 (expected)", "zh": "2023.09 – 2027.06（预计）"},
+      "metrics": {"en": "93.50 / 100 · 4.35 / 5.0", "zh": "93.50 / 100 · 4.35 / 5.0"},
+      "note": {"en": "Joint degree program with the University of Leicester", "zh": "与莱斯特大学合作办学项目"},
+      "courses": {"en": "Higher algebra; mathematical analysis; real analysis; analytic geometry; ordinary differential equations; linear statistics.", "zh": "高等代数、数学分析、实分析、解析几何、常微分方程、线性统计。"}
+    }
+  ],
+  "experience": [
+    {
+      "title": {"en": "NUS SCALE Youth Program", "zh": "新加坡国立大学 SCALE Youth Program"},
+      "role": {"en": "Short-term exchange program · Singapore", "zh": "短期交流项目 · 新加坡"},
+      "dates": {"en": "Feb 2025", "zh": "2025.02"},
+      "summary": {"en": "Artificial intelligence and machine learning program with practical projects, case studies, group discussions, and presentations.", "zh": "参加人工智能与机器学习交流课程，完成实践项目、案例学习、小组讨论与汇报。"}
+    },
+    {
+      "title": {"en": "China Construction Bank, Zhangzhou Branch", "zh": "中国建设银行漳州分行"},
+      "role": {"en": "Summer intern · Business Department", "zh": "暑期实习生 · 业务部门"},
+      "dates": {"en": "Jul – Aug 2024", "zh": "2024.07 – 2024.08"},
+      "summary": {"en": "Analyzed fixed-income products, structured deposits, options, and derivatives; supported quantitative evaluation, risk disclosure, and internal research materials.", "zh": "分析固收产品、结构性存款、期权与衍生品的收益结构和风险特征，协助量化评估、风险披露与内部研究材料整理。"}
+    },
+    {
+      "title": {"en": "Innovative Talents Science Training Program", "zh": "创新人才科学培养计划"},
+      "role": {"en": "Online course & projects · China International Education Institute", "zh": "在线课程与项目 · China International Education Institute"},
+      "dates": {"en": "Mar – May 2024", "zh": "2024.03 – 2024.05"},
+      "summary": {"en": "Completed Scientific Data Analysis and Machine Learning Applications, including data-analysis projects and practical assignments.", "zh": "完成 Scientific Data Analysis and Machine Learning Applications 课程、数据分析项目与实践作业。"}
+    },
+    {
+      "title": {"en": "Statistics Bureau of Xiangcheng District Government", "zh": "漳州市芗城区统计局"},
+      "role": {"en": "Winter intern · Zhangzhou", "zh": "寒期实习生 · 漳州"},
+      "dates": {"en": "Jan – Feb 2024", "zh": "2024.01 – 2024.02"},
+      "summary": {"en": "Assisted the Fifth National Economic Census through business-data entry, on-site visits, verification, cross-department comparisons, and abnormal-value screening.", "zh": "参与第五次全国经济普查，协助企业与个体工商户数据录入、实地走访、核验、跨部门比对和异常值筛查。"}
+    }
+  ],
+  "awards": [
+    {"title": {"en": "First Class Academic Excellence Scholarship · DUT", "zh": "大连理工大学学习优秀一等奖学金"}, "date": "2026.09", "top": "5%"},
+    {"title": {"en": "Cultural and Ethical Progress Scholarship · DUT", "zh": "大连理工大学精神文明奖学金"}, "date": "2026.09", "top": "10%"},
+    {"title": {"en": "Kaggle Bronze Medal · BirdCLEF+ 2026", "zh": "Kaggle 铜牌 · BirdCLEF+ 2026"}, "date": "2026.06", "top": "8%"},
+    {"title": {"en": "Kaggle Bronze Medal · March Machine Learning Mania 2026", "zh": "Kaggle 铜牌 · March Machine Learning Mania 2026"}, "date": "2026.04", "top": "7%"},
+    {"title": {"en": "First Class Academic Excellence Scholarship · DUT", "zh": "大连理工大学学习优秀一等奖学金"}, "date": "2025.09", "top": "5%"},
+    {"title": {"en": "Third Prize, Liaoning Division · CUMCM", "zh": "全国大学生数学建模竞赛辽宁赛区三等奖"}, "date": "2025.09", "top": "15%"},
+    {"title": {"en": "First Prize · Asia & Pacific Mathematical Contest in Modeling", "zh": "亚太地区大学生数学建模竞赛一等奖"}, "date": "2025.01", "top": "5%"},
+    {"title": {"en": "Meritorious Winner · Mathematical Contest in Modeling", "zh": "美国大学生数学建模竞赛 Meritorious Winner"}, "date": "2025.01", "top": "6%"},
+    {"title": {"en": "First Prize · English Weekly National Translation Competition for College Students", "zh": "English Weekly 全国大学生翻译竞赛一等奖"}, "date": "2024.08", "top": "5%"}
+  ],
+  "copy": {
+    "en": {
+      "title": "Lifeng Han | Mathematics & Machine Learning",
+      "description": "Lifeng Han, mathematics undergraduate in the joint University of Leicester–Dalian University of Technology program. Research in reinforcement learning, optimization, and multi-view machine learning.",
+      "skip": "Skip to content", "navigation": "Navigation", "menu": "Menu", "language": "中文", "language_name": "切换到中文", "home": "Overview", "pubs": "Publications", "research": "Research", "education": "Education", "experience": "Experience", "awards": "Honors & awards", "contact": "Contact", "email": "Email", "code": "Code", "paper": "Paper PDF", "preprint": "arXiv preprint", "doi": "DOI", "back": "Back to overview", "onpage": "On this page", "openimage": "Open architecture figure", "cofirst": "Equal contribution (co-first authors).", "courses": "Selected coursework", "top": "Top", "all_awards": "View all honors & awards", "more_projects": "More research projects", "research_cta": "Explore research", "publications_cta": "All publications", "joint": "Joint undergraduate program", "sidebar_degree": "Mathematics & Foundations of Mathematical Science", "sidebar_universities": "University of Leicester\nDalian University of Technology", "sidebar_graduation": "Expected graduation · June 2027", "hero_kicker": "Mathematics · Machine learning", "hero_lead": "An undergraduate working at the intersection of mathematical thinking and machine learning.", "hero_bio": "I study Mathematics and Foundations of Mathematical Science in the joint University of Leicester–Dalian University of Technology program, with expected graduation in June 2027.", "hero_interests": "My research interests include reinforcement learning, optimization, deep learning, NLP and large language models, and mathematical statistics.", "research_heading": "Selected research & code", "research_intro": "Learning structured decisions and useful representations from complex data.", "publications_heading": "Publications", "publications_intro": "Complete author lists and current manuscript statuses.", "publication_page_intro": "Research in neural combinatorial optimization, incomplete multi-view learning, and data-driven policy analysis.", "education_intro": "Two degree programs, delivered through the Leicester International Institute at DUT Panjin Campus.", "experience_heading": "Experience & learning", "skills_heading": "Methods & tools", "skills_label": "Programming & scientific writing", "methods_label": "Research methods", "methods": "Attention and Transformer models · Deep reinforcement learning · Multi-view learning · Statistical inference · Econometrics · Time series · Model interpretation", "languages_label": "Languages", "languages": "Mandarin (native) · English (proficient)", "contact_heading": "Let’s connect.", "contact_text": "For research conversations, collaboration, or academic enquiries, please get in touch by email.", "private_cv": "A full CV and supporting materials are available upon request.", "footer": "Lifeng Han", "figure_caption": "Architecture figure from the research manuscript", "leadership_summary": "Student leadership", "leadership_text": "Leicester International Institute Student Union: Deputy Head, Rights and Interests Department (Sep 2024 – Jun 2025); Member, Theoretical Learning Department (Sep 2023 – Jun 2024)."
+    },
+    "zh": {
+      "title": "韩立峰 | 数学与机器学习",
+      "description": "韩立峰，莱斯特大学与大连理工大学合作办学项目本科生。研究兴趣包括强化学习、优化与多视图机器学习。",
+      "skip": "跳至正文", "navigation": "导航", "menu": "菜单", "language": "English", "language_name": "Switch to English", "home": "概览", "pubs": "论文", "research": "研究", "education": "教育", "experience": "经历", "awards": "荣誉与奖励", "contact": "联系", "email": "邮箱", "code": "代码", "paper": "论文 PDF", "preprint": "arXiv 预印本", "doi": "DOI", "back": "返回个人主页", "onpage": "页面导航", "openimage": "查看完整架构图", "cofirst": "同等贡献（共同第一作者）。", "courses": "部分核心课程", "top": "前", "all_awards": "展开全部荣誉与奖励", "more_projects": "更多研究项目", "research_cta": "了解研究", "publications_cta": "全部论文", "joint": "合作办学项目本科生", "sidebar_degree": "数学与数理基础科学", "sidebar_universities": "莱斯特大学\n大连理工大学", "sidebar_graduation": "预计毕业 · 2027 年 6 月", "hero_kicker": "数学 · 机器学习", "hero_lead": "以数学思考问题，用机器学习探索解法。", "hero_bio": "我就读于莱斯特大学与大连理工大学合作办学项目，学习数学与数理基础科学，预计于 2027 年 6 月毕业。", "hero_interests": "研究兴趣包括强化学习、优化、深度学习、自然语言处理与大语言模型，以及数理统计。", "research_heading": "精选研究与代码", "research_intro": "探索复杂数据中的结构化决策与有效表示。", "publications_heading": "学术论文", "publications_intro": "完整作者信息与当前稿件状态。", "publication_page_intro": "研究涵盖神经组合优化、不完整多视图学习，以及数据驱动的政策分析。", "education_intro": "通过大连理工大学盘锦校区莱斯特国际学院修读两校学位项目。", "experience_heading": "实践与学习经历", "skills_heading": "方法与工具", "skills_label": "编程与科学写作", "methods_label": "研究方法", "methods": "注意力与 Transformer · 深度强化学习 · 多视图学习 · 统计推断 · 计量经济学 · 时间序列 · 模型解释", "languages_label": "语言", "languages": "中文（母语） · 英语（熟练）", "contact_heading": "欢迎交流。", "contact_text": "如需讨论研究、合作或学术相关事宜，欢迎通过邮件联系我。", "private_cv": "完整简历与相关材料可按需私下提供。", "footer": "韩立峰 · Lifeng Han", "figure_caption": "研究论文中的模型架构图", "leadership_summary": "学生工作", "leadership_text": "莱斯特国际学院学生会：权益部副部长（2024.09 – 2025.06）；理论学习部成员（2023.09 – 2024.06）。"
+    }
+  }
+}
