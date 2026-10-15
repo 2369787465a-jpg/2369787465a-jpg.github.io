@@ -691,6 +691,10 @@
         },
         "width": 1540,
         "height": 1128
+      },
+      "role": {
+        "en": "Leader",
+        "zh": "负责人"
       }
     },
     {
@@ -712,6 +716,10 @@
         },
         "width": 2000,
         "height": 1172
+      },
+      "role": {
+        "en": "Leader",
+        "zh": "负责人"
       }
     },
     {
@@ -733,6 +741,10 @@
         },
         "width": 1487,
         "height": 860
+      },
+      "role": {
+        "en": "Leader",
+        "zh": "负责人"
       }
     },
     {
@@ -754,6 +766,10 @@
         },
         "width": 2000,
         "height": 944
+      },
+      "role": {
+        "en": "Leader",
+        "zh": "负责人"
       }
     },
     {
@@ -775,6 +791,10 @@
         },
         "width": 1029,
         "height": 105
+      },
+      "role": {
+        "en": "Leader",
+        "zh": "负责人"
       }
     },
     {
@@ -817,6 +837,10 @@
         },
         "width": 1210,
         "height": 1325
+      },
+      "role": {
+        "en": "Leader",
+        "zh": "负责人"
       }
     }
   ],
@@ -1009,8 +1033,8 @@
         "zh": "2026 年"
       },
       "role": {
-        "en": "Competition Bronze Medalist",
-        "zh": "竞赛铜牌获得者"
+        "en": "Team leader",
+        "zh": "团队负责人"
       },
       "summary": {
         "en": "Forecasted the outcomes of the 2026 NCAA basketball tournaments in Kaggle's March Machine Learning Mania competition. Bronze medal, top 7%; final rank: 240 of 3,462 teams.",

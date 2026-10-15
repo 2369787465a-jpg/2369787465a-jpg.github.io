@@ -46,7 +46,7 @@ Open `http://127.0.0.1:4000/`. A plain file server cannot compile this Jekyll so
 - `assets/js/site.js`: optional accessible mobile menu. Content, links, navigation, and disclosure sections work without JavaScript.
 - `assets/research/`: original manuscript architecture figures, the CIPAE paper's scatterplot matrix, and the ozone report's spatial regridding figure.
 - `assets/competitions/`: original official Kaggle competition images, with source links in the page captions.
-- `assets/evidence/`: reviewed award-record and certificate crops; linked thumbnails open the full image.
+- `assets/evidence/`: reviewed award-record and certificate crops; text links open the full image on demand.
 
 ## Portrait and later evidence
 
@@ -54,7 +54,7 @@ The owner's supplied portrait is `assets/portrait/lifeng-han.jpg`, used on all f
 
 The two project code links and manuscript PDFs point to their actual public GitHub repositories. The arXiv link is a preprint, labeled separately from the Applied Intelligence manuscript's **under revision** status. ICONIP 2026 is **accepted**; CIPAE 2025 is **published**. Update statuses only after an author-confirmed change or a verified publication record. Preserve complete author lists and co-first-author markers.
 
-The first six honors are visible: the two academic excellence scholarships, ICM, the two Kaggle medals, and APMCM. The remaining three (CUMCM, cultural scholarship, and translation competition) share one collapsed section. All nine entries link to reviewed supporting crops. Scholarship screenshots are labeled approval records; the CUMCM proof is a Liaoning Division award-list excerpt. The compact display title is “Third Prize · CUMCM.” The NUS short-course entry links to its completion certificate. Competition year and award date are kept distinct for APMCM.
+The first six honors are visible: the two academic excellence scholarships, ICM, the two Kaggle medals, and APMCM. The remaining three (CUMCM, cultural scholarship, and translation competition) share one collapsed section. All nine entries use text links to reviewed supporting crops, matching the Kaggle cards; supporting images open only when clicked. All six competition award entries carry the owner's confirmed Leader role, and both Kaggle project cards show Team leader. Scholarship screenshots are labeled approval records; the CUMCM proof is a Liaoning Division award-list excerpt. The compact display title is “Third Prize · CUMCM.” The NUS short-course entry links to its completion certificate. Competition year and award date are kept distinct for APMCM.
 
 The two education cards display selected completed module marks: eight Leicester courses above 90/100 and ten DUT courses above 95/100. The DUT selection includes third-year second-semester 数理统计 II (98), officially titled “Linear Statistics” in the English record. Course names and marks were checked against the respective university records; the original transcripts are not published. The course selection and award order are maintained in `tools/content.json`.
 

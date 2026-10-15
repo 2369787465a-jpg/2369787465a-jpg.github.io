@@ -33,6 +33,8 @@ def render() -> dict[str, str]:
         project.setdefault("layout", "split")
     for item in content["awards"] + content["experience"]:
         item.setdefault("evidence", None)
+    for award in content["awards"]:
+        award.setdefault("role", None)
     template = env.get_template("page.html")
     pages = {}
     for lang, publications_page, destination in OUTPUTS:

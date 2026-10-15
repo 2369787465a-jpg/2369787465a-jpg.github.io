@@ -13,7 +13,7 @@
 {% if project.image %}<figure class="project-figure"><a href="{{ project.image }}" aria-label="{{ t.open_figure }}: {{ project.title[lang] }}"><img src="{{ project.image }}" alt="{{ project.alt[lang] }}" width="{{ project.image_width }}" height="{{ project.image_height }}" loading="lazy" decoding="async"></a>{% if project.image_source %}<figcaption><a href="{{ project.image_source }}">{{ project.image_caption[lang] }}</a></figcaption>{% else %}<figcaption>{{ project.image_caption[lang] }}</figcaption>{% endif %}</figure>{% endif %}
 {%- endmacro %}
 {% macro award_list(items) -%}
-<ul class="news-list awards-list">{% for award in items %}<li><span class="award-date">{{ award.date }}</span><div class="award-description">{{ award.title[lang] }} <span class="award-percent">({{ t.top }} {{ award.top }})</span></div>{{ evidence_link(award.evidence, award.title[lang], thumbnail=True) }}</li>{% endfor %}</ul>
+<ul class="news-list awards-list">{% for award in items %}<li><span class="award-date">{{ award.date }}</span><div class="award-description">{{ award.title[lang] }} <span class="award-percent">({{ t.top }} {{ award.top }})</span>{% if award.role %} <span class="award-role">{{ award.role[lang] }}</span>{% endif %}</div><div class="award-evidence">{{ evidence_link(award.evidence, award.title[lang]) }}</div></li>{% endfor %}</ul>
 {%- endmacro %}
 {% macro publication(p) -%}
 <article class="timeline-card publication-card" id="paper-{{ p.id }}">
