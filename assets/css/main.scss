@@ -492,6 +492,28 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     }
     .project-card--publication .project-figure { max-width: 640px; margin: 1.1rem auto 1.25rem; }
     .project-card--publication .project-figure figcaption { text-align: center; }
+    .project-card--illustrated {
+        display: grid;
+        grid-template-columns: minmax(0, 0.39fr) minmax(0, 0.61fr);
+        align-items: start;
+        gap: 1.35rem;
+        padding: 1.2rem;
+
+        &:before { display: none; }
+        .project-card-media, .project-card-copy { min-width: 0; }
+        .project-card-media .badge { margin-bottom: 0.7rem; }
+        .project-figure { width: 100%; max-width: none; margin: 0; }
+        .project-figure > a { display: block; }
+        .project-figure img { width: 100%; height: auto; object-fit: contain; }
+        .project-figure figcaption { text-align: left; line-height: 1.55; }
+        .project-card-copy {
+            overflow-wrap: break-word;
+            h3 { margin: 0 0 0.55rem; font-size: 18px; line-height: 1.5; }
+            .timeline-meta { margin: 0 0 0.8rem; font-size: 14px; line-height: 1.65; }
+            p { margin: 0 0 0.8rem; font-size: 14px; }
+            .pub-links { margin-top: 0.9rem; }
+        }
+    }
     .more-research .timeline-card:last-child { margin-bottom: 0.75rem; }
     .awards-collapse { margin-top: 1rem; padding-bottom: 0.85rem; }
     .awards-collapse .awards-list { background: #fff; }
@@ -546,6 +568,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .author__urls_sm { font-size: 1.5rem; display: flex; flex-wrap: wrap; gap: 4px; }
     .profile_box .author__avatar { flex-shrink: 0; }
     .page { width: 100%; }
+}
+@media (max-width: 900px) {
+    .page__content .project-card--illustrated {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1.1rem;
+        .project-card-media { width: 100%; max-width: 480px; margin: 0 auto; }
+    }
 }
 @media (max-width: 767px) {
     #main { padding-left: 1rem; padding-right: 1rem; }

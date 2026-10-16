@@ -5,7 +5,8 @@ Research figures are faithful screenshots of the author's original manuscripts a
 - `research/clupdtsp-architecture.png`: CAADRL manuscript, Fig. 2. [Manuscript](https://github.com/2369787465a-jpg/CluPDTSP/blob/main/Clupdtsp_main.pdf).
 - `research/mctrcm-architecture.png`: MC-TRCM manuscript, Fig. 2. [Manuscript](https://github.com/2369787465a-jpg/MC-TRCM/blob/main/main.pdf).
 - `research/cybercrime-pairwise-matrix.png`: *Multidimensional Metrics Analysis Based on K-Means Clustering and LSTM-Multi-Period DiD*, Fig. 6, printed p. 79. Lifeng Han, Zhihan Zhang, Guanqi Wang; CIPAE 2025. [DOI](https://doi.org/10.1109/CIPAE66821.2025.00018).
-- `research/cybercrime-gdp-cluster.png`: the same CIPAE paper's Fig. 3, printed p. 76: a scatterplot matrix for the low-GDP country cluster. This is the displayed image for the folded CIPAE project.
+- `research/cybercrime-gdp-cluster.png`: the same CIPAE paper's Fig. 3, printed p. 76: a scatterplot matrix for the low-GDP country cluster. Retained as a supplementary original-paper figure.
+- `research/cybercrime-cluster-clouds.png`: *Cybersecurity Strategy Study Based on Data Analysis and Policy Effects*, the owner-supplied original 2025 modeling report, Fig. 10 on printed p. 8 (PDF p. 9). Direct 300-dpi screenshot of the three K-means cybercrime-rate country-cluster word clouds and original figure caption. This is the displayed image for the folded CIPAE research project; it comes from the original modeling report, not the six-page published CIPAE paper. The crop excludes the team-number header.
 - `research/ozone-regridding.png`: *A Physics-Consistent Machine Learning Framework for High-Resolution Ozone Downscaling in the Greater Bay Area*, Fig. 1, report p. 5. Wentao Wang, Lifeng Han, Chenxi Pan. A project report; the image illustrates spatial regridding.
 
 Competition images are the unmodified official header images linked from the corresponding Kaggle pages:
