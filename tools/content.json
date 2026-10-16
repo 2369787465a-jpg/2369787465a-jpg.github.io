@@ -285,6 +285,25 @@
       "id": "did"
     },
     {
+      "id": "provincial-tsp-innovation",
+      "title": {
+        "en": "Deep Reinforcement Learning for TSP with Local Improvement Strategies",
+        "zh": "基于改进策略的 TSP 深度强化学习求解器"
+      },
+      "dates": {
+        "en": "2025",
+        "zh": "2025 年"
+      },
+      "role": {
+        "en": "Team member · Provincial Undergraduate Innovation Training Project · Advisor: Prof. Guangyu Zou, DUT",
+        "zh": "团队成员 · 省级大学生创新训练项目 · 导师：大连理工大学邹广宇教授"
+      },
+      "summary": {
+        "en": "A provincial undergraduate innovation project on improvement-based deep reinforcement learning for the traveling salesman problem. The proposed solver combines a dual-aspect Transformer and cyclic positional encoding with PPO training and 2-opt/3-opt local search. The evaluation plan uses TSPLIB instances to examine solution quality, runtime, and generalization against classical and neural solvers.",
+        "zh": "省级大学生创新训练项目，研究旅行商问题（TSP）的改进型深度强化学习求解方法。方案将双视角 Transformer 与循环位置编码相结合，采用 PPO 训练，并融入 2-opt/3-opt 局部搜索。计划基于 TSPLIB 实例，对求解质量、运行时间与泛化能力开展比较评估。"
+      }
+    },
+    {
       "title": {
         "en": "High-resolution ozone downscaling",
         "zh": "高分辨率臭氧降尺度预测"
