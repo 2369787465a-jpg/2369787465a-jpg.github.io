@@ -120,6 +120,14 @@
   <div class="chip-row">{% for language in site.languages %}<span class="chip">{{ language }}</span>{% endfor %}</div>
   <p><strong>{{ t.methods_label }}:</strong> {{ t.methods }}</p><p><strong>{{ t.languages_label }}:</strong> {{ t.languages }}</p>
 </section>
+<section class="early-programming" aria-labelledby="early-programming-heading">
+  <h2 id="early-programming-heading">{{ early_programming.title[lang] }}</h2>
+  <p class="timeline-meta">{{ early_programming.subtitle[lang] }}</p>
+  <p>{{ early_programming.summary[lang] }}</p>
+  <dl class="early-programming-metrics">{% for metric in early_programming.metrics %}<div><dt>{{ metric.label[lang] }}</dt><dd>{{ metric.value }}</dd></div>{% endfor %}</dl>
+  <p class="section-note">{{ early_programming.metrics_note[lang] }}</p>
+  {{ evidence_link(early_programming.evidence, early_programming.title[lang]) }}
+</section>
 {% endif %}
 
 <section class="contact-section" aria-labelledby="contact-heading">

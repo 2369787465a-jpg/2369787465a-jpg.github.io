@@ -514,6 +514,18 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .award-role { display: inline-block; margin-left: 0.45rem; padding: 0.02rem 0.4rem; border-radius: 4px; background: var(--homepage-accent-soft); color: var(--homepage-accent); font-size: 11px; font-weight: 600; white-space: nowrap; }
     .award-evidence { justify-self: end; max-width: 11rem; }
     .award-evidence .evidence-link { margin-top: 0; line-height: 1.6; text-align: right; }
+    .early-programming {
+        padding-top: 0.35rem;
+        border-top: 1px solid var(--homepage-line);
+        .timeline-meta { font-size: 14px; }
+        .section-note { margin-bottom: 0; }
+    }
+    .early-programming-metrics {
+        display: flex; flex-wrap: wrap; gap: 0.75rem 2.5rem; margin: 1rem 0 0.6rem;
+        > div { display: flex; flex-direction: column-reverse; }
+        dt { font-size: 13px; font-weight: 400; color: #5f7284; }
+        dd { margin: 0; font-size: 20px; font-weight: 600; color: var(--homepage-ink); font-variant-numeric: tabular-nums; }
+    }
 }
 @media (max-width: 1000px) {
     .greedy-nav {

@@ -18,3 +18,5 @@ The official competition images retain their original creators' rights. Research
 `portrait/lifeng-han.jpg` is the owner's supplied personal photo, copied with its original image pixels.
 
 `evidence/` contains crops of the owner's supplied supporting materials: two academic-excellence scholarship approval records; ICM Meritorious Winner; two Kaggle bronze medals; APMCM First Prize; the CUMCM Liaoning Division award list; cultural-scholarship approval; English translation First Prize; and NUS course completion. Captions identify approval records and list excerpts separately from certificates. Crops omit unrelated interfaces, verification codes and private identifiers. Complete transcripts, the CV, the research questionnaire, and preparation files are kept outside the public repository.
+
+`evidence/mini-world-creator-stats.png` is the owner's unmodified Mini World creator-page screenshot. It records aggregate downloads and plays across published works and is linked only from the early programming section; the counters are not unique-user metrics.
