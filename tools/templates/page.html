@@ -1,6 +1,6 @@
 {% macro paper_links(p) -%}
 <div class="pub-links">
-{% if p.pdf %}<a href="{{ p.pdf }}">{{ t.paper }}</a>{% endif %}
+{% if p.pdf %}<a href="{{ p.pdf }}">{{ p.pdf_label[lang] if p.get('pdf_label') else t.paper }}</a>{% endif %}
 {% if p.code %}<a href="{{ p.code }}">{{ t.code }}</a>{% endif %}
 {% if p.preprint %}<a href="{{ p.preprint }}">{{ t.preprint }}</a>{% endif %}
 {% if p.doi %}<a href="{{ p.doi }}">{{ t.doi }}</a>{% endif %}
@@ -8,6 +8,9 @@
 {%- endmacro %}
 {% macro evidence_link(evidence, title, thumbnail=False) -%}
 {% if evidence %}<a class="{{ 'award-proof' if thumbnail else 'evidence-link' }}" href="{{ evidence.image }}" aria-label="{{ t.view_evidence }}: {{ title }}">{% if thumbnail %}<img src="{{ evidence.image }}" alt="{{ evidence.alt[lang] }}" width="{{ evidence.width }}" height="{{ evidence.height }}" loading="lazy" decoding="async">{% endif %}<span>{{ evidence.label[lang] }}</span></a>{% endif %}
+{%- endmacro %}
+{% macro institution_logo(logo) -%}
+{% if logo %}<div class="institution-logo"><img src="{{ logo.image }}" alt="{{ logo.alt[lang] }}" width="{{ logo.width }}" height="{{ logo.height }}" loading="lazy" decoding="async"></div>{% endif %}
 {%- endmacro %}
 {% macro project_figure(project) -%}
 {% if project.image %}<figure class="project-figure"><a href="{{ project.image }}" aria-label="{{ t.open_figure }}: {{ project.title[lang] }}"><img src="{{ project.image }}" alt="{{ project.alt[lang] }}" width="{{ project.image_width }}" height="{{ project.image_height }}" loading="lazy" decoding="async"></a>{% if project.image_source %}<figcaption><a href="{{ project.image_source }}">{{ project.image_caption[lang] }}</a></figcaption>{% else %}<figcaption>{{ project.image_caption[lang] }}</figcaption>{% endif %}</figure>{% endif %}
@@ -82,7 +85,7 @@
     {% for project in projects %}
     <article class="timeline-card project-card{% if project.publication %} project-card--publication{% endif %}{% if project.image %} project-card--illustrated{% endif %}" data-project="{{ project.id }}">
       {% if project.image %}<div class="project-card-media">{% if project.publication %}<span class="badge">{{ publication_by_id[project.publication].status[lang] }}</span>{% endif %}{{ project_figure(project) }}</div>{% endif %}
-      <div class="project-card-copy"><h3>{{ project.title[lang] }}</h3><p class="timeline-meta">{{ project.role[lang] }} · {{ project.dates[lang] }}</p><p>{{ project.summary[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{% if project.publication %}{{ paper_links(publication_by_id[project.publication]) }}{% endif %}</div>
+      <div class="project-card-copy"><h3>{{ project.title[lang] }}</h3><p class="timeline-meta">{{ project.role[lang] }} · {{ project.dates[lang] }}</p><p>{{ project.summary[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{% if project.publication %}{{ paper_links(publication_by_id[project.publication]) }}{% elif project.pdf or project.code %}{{ paper_links(project) }}{% endif %}</div>
     </article>
     {% endfor %}
   </details>
@@ -100,16 +103,10 @@
   <div class="section-actions"><a class="link-pill" href="{{ publications_url }}">{{ t.publications_cta }}</a></div>
 </section>
 
-<section aria-labelledby="education-heading">
-  <span class="anchor" id="education"></span>
-  <h2 id="education-heading">{{ t.education }}</h2><p class="section-note">{{ t.education_intro }}</p>
-  {% for school in education %}<article class="timeline-card"><h3>{{ school.name[lang] }}</h3><p class="timeline-meta">{{ school.degree[lang] }} · {{ school.dates[lang] }}</p><p class="education-metrics">{{ school.metrics[lang] }}</p><p>{{ school.note[lang] }}</p><h4 class="course-heading">{{ t.graded_courses }}</h4><ul class="course-grades">{% for course in school.course_grades %}<li><span>{{ course.name[lang] }}</span><strong>{{ course.grade }}<small>/100</small></strong></li>{% endfor %}</ul></article>{% endfor %}
-</section>
-
 <section aria-labelledby="experience-heading">
   <span class="anchor" id="experience"></span>
   <h2 id="experience-heading">{{ t.experience_heading }}</h2>
-  {% for item in experience %}<article class="timeline-card"><h3>{{ item.title[lang] }}</h3><p class="timeline-meta">{{ item.role[lang] }} · {{ item.dates[lang] }}</p><p>{{ item.summary[lang] }}</p>{{ evidence_link(item.evidence, item.title[lang]) }}</article>{% endfor %}
+  {% for item in experience %}<article class="timeline-card institution-card"><header class="institution-card-heading"><div class="institution-card-text"><h3>{{ item.title[lang] }}</h3><p class="timeline-meta">{{ item.role[lang] }} · {{ item.dates[lang] }}</p></div>{{ institution_logo(item.logo) }}</header><p>{{ item.summary[lang] }}</p>{{ evidence_link(item.evidence, item.title[lang]) }}</article>{% endfor %}
   <details class="publication-collapse"><summary>{{ t.leadership_summary }}</summary><p>{{ t.leadership_text }}</p></details>
 </section>
 

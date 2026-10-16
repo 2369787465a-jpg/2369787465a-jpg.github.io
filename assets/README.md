@@ -21,3 +21,12 @@ The official competition images retain their original creators' rights. Research
 `evidence/` contains crops of the owner's supplied supporting materials: two academic-excellence scholarship approval records; ICM Meritorious Winner; two Kaggle bronze medals; APMCM First Prize; the CUMCM Liaoning Division award list; cultural-scholarship approval; English translation First Prize; and NUS course completion. Captions identify approval records and list excerpts separately from certificates. Crops omit unrelated interfaces, verification codes and private identifiers. Complete transcripts, the CV, the research questionnaire, and preparation files are kept outside the public repository.
 
 `evidence/mini-world-creator-stats.png` is the owner's unmodified creator-page screenshot for the early mini technology programming experience. It records aggregate downloads and plays across published works and is linked only from the early programming section; the counters are not unique-user metrics.
+
+## Institution logos
+
+Original institution marks identify the corresponding education or experience. Logo images are faithful screenshots/crops or original official assets, with rights retained by their respective institutions.
+
+- `institutions/national-university-of-singapore.png`: Direct crop from official NUS SCALE completion certificate header; no redraw. [Institution website](https://scale.nus.edu.sg/).
+- `institutions/neoscholar.png`: Direct crop from original course transcript p1 footer by course-proof reviewer; no redraw. [Institution website](https://itstp.neoscholar.com/).
+
+`evidence/itstp-data-analysis-92.png` is a reviewed crop of the owner's course transcript, excluding the student-number panel. It records Data Analysis, 92/100, and MIT as Prof. Gunther Roland's home institution. The course provider and transcript issuer are ITSTP / Neoscholar; its actual provider logo appears on the experience card.

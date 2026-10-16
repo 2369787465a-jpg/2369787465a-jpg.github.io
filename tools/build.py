@@ -26,13 +26,15 @@ def render() -> dict[str, str]:
             paper.setdefault(key, None)
     for project in content["projects"] + content.get("competitions", []):
         project.setdefault("publication", None)
-        for key in ("image", "image_source", "contribution", "evidence"):
+        for key in ("image", "image_source", "contribution", "evidence", "pdf", "code", "preprint", "doi"):
             project.setdefault(key, None)
     for project in content["featured"]:
         project.setdefault("contribution", None)
         project.setdefault("layout", "split")
     for item in content["awards"] + content["experience"]:
         item.setdefault("evidence", None)
+    for item in content["education"] + content["experience"]:
+        item.setdefault("logo", None)
     for award in content["awards"]:
         award.setdefault("role", None)
     template = env.get_template("page.html")

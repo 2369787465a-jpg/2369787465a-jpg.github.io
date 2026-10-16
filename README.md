@@ -2,7 +2,7 @@
 
 A bilingual academic homepage at [2369787465a-jpg.github.io](https://2369787465a-jpg.github.io/), hosted by GitHub Pages from the `main` branch, repository root.
 
-The site uses its original **Jekyll / Minimal Mistakes** framework: white background, horizontal top navigation, author sidebar, pale blue hero, four overview cards, and research cards. The shared Sass theme and Font Awesome assets remain active.
+The site uses its original **Jekyll / Minimal Mistakes** framework: white background, horizontal top navigation, author sidebar, pale blue hero, three research overview cards, and research cards. The shared Sass theme and Font Awesome assets remain active.
 
 ## Pages and content
 
@@ -56,7 +56,7 @@ The two project code links and manuscript PDFs point to their actual public GitH
 
 The first six honors are visible: the two academic excellence scholarships, ICM, the two Kaggle medals, and APMCM. The remaining three (CUMCM, cultural scholarship, and translation competition) share one collapsed section. All nine entries use text links to reviewed supporting crops, matching the Kaggle cards; supporting images open only when clicked. The five team-competition award entries carry the owner's confirmed Leader role, and both Kaggle project cards show Team leader. The English translation competition is an individual event and has no leadership label. Scholarship screenshots are labeled approval records; the CUMCM proof is a Liaoning Division award-list excerpt. The compact display title is “Third Prize · CUMCM.” The NUS short-course entry links to its completion certificate. Competition year and award date are kept distinct for APMCM.
 
-The two education cards display selected completed module marks: eight Leicester courses above 90/100 and ten DUT courses above 95/100. The DUT selection includes third-year second-semester 数理统计 II (98), officially titled “Linear Statistics” in the English record. Course names and marks were checked against the respective university records; the original transcripts are not published. The course selection and award order are maintained in `tools/content.json`.
+The overview emphasizes research and public code. The education-details section, coursework marks, education overview card, and the two internship entries are omitted. Two short training entries remain: NUS SCALE and the ITSTP course taught by MIT faculty, including its verified 92/100 assessment.
 
 The two featured research cards are CAADRL and MC-TRCM, both labeled Co-first author with their specific personal contributions retained. MC-TRCM uses a large centered architecture image, with its title above and explanatory text below. The “More research projects” disclosure follows, ordered as CIPAE, ozone downscaling, then empirical asset pricing. The CIPAE and ozone cards keep their original figure on the left and the project description on the right on desktop, tablet, and mobile screens, with smaller spacing and type on narrow screens. Full-size images open on click. The CIPAE project displays the original modeling report's three-cluster country word clouds (Fig. 10); its caption distinguishes that report from the published CIPAE paper. Research summaries distinguish the project method from Han's personal contribution. Equal-contribution markers follow each original paper, including all three authors of the CIPAE paper. Figure sources are recorded in [assets/README.md](assets/README.md).
 
@@ -65,3 +65,5 @@ A brief early independent programming section follows the university achievement
 The full CV and application materials remain private. Do not commit the original CV PDF, preparation notes, private phone number, transcripts, or unsanitized certificates. Only `lh481@student.le.ac.uk` is public. Keep the universities' GPA scales and UoL-only rank distinct; graduation and First Class Honours are expected, not awarded.
 
 The new layout does not request empty Analytics, Scholar statistics, MathJax, or missing icon resources. The original [MIT license](LICENSE), including **Copyright (c) 2022 Yi Ren**, is preserved byte-for-byte; retained theme/vendor license notices remain in their source files.
+
+The two additional-training cards use original NUS and Neoscholar institution logos on the right. The ITSTP Data Analysis course is described as taught by MIT faculty, with Prof. Gunther Roland's affiliation, 48 class hours, and a verified 92/100 (A+) assessment. Neoscholar is identified as the program/transcript provider; the private full transcript is not published. The ozone project links to its public code repository and a privacy-reviewed report PDF.

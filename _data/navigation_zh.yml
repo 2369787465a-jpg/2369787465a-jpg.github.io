@@ -9,11 +9,8 @@ main:
   - title: "论文"
     url: "/zh/publications/"
 
-  - title: "经历"
+  - title: "学习"
     url: "/zh/#experience"
-
-  - title: "教育背景"
-    url: "/zh/#education"
 
   - title: "荣誉"
     url: "/zh/#honors"

@@ -470,6 +470,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .publication-card h3 { line-height: 1.5; }
     .publication-card .publication-meta { font-weight: 400; }
     .education-metrics { font-weight: 700; color: var(--homepage-accent); }
+    .institution-card-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.25rem; }
+    .institution-card-text { min-width: 0; flex: 1; }
+    .institution-logo { flex: 0 0 130px; display: flex; justify-content: center; padding-top: 0.15rem; }
+    .institution-logo img { display: block; width: auto; max-width: 130px; max-height: 82px; height: auto; object-fit: contain; border: 0; border-radius: 0; box-shadow: none; background: #fff; }
     .coursework summary { cursor: pointer; color: var(--homepage-accent); font-size: 14px; }
     .coursework p { margin-top: 0.6rem; }
     .publication-collapse summary { outline-offset: 4px; }
@@ -577,6 +581,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .highlight-card { padding: 1rem; }
     .highlight-card p { font-size: 14px; overflow-wrap: anywhere; }
     .highlight-card h3 { font-size: 16px; }
+    .highlight-grid > :last-child:nth-child(odd) { grid-column: 1 / -1; }
     .paper-box { padding: 1.1rem; }
     .paper-box .paper-box-image { order: 1; margin-bottom: 1.2rem; }
     .paper-box .paper-box-text { order: 2; }
@@ -594,6 +599,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .profile_box .author__avatar img { min-width: 67px; }
     .profile_box img.author-avatar--portrait { width: 67px; border-radius: 12px; }
     .page__content {
+        .institution-card-heading { gap: 0.7rem; }
+        .institution-logo { flex-basis: 82px; }
+        .institution-logo img { max-width: 82px; max-height: 64px; }
         .more-research { padding-left: 0.55rem; padding-right: 0.55rem; }
         .project-card--illustrated {
             grid-template-columns: minmax(0, 0.3fr) minmax(0, 0.7fr);
