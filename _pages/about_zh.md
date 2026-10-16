@@ -46,12 +46,10 @@ sidebar_intro: "莱斯特大学 · 大连理工大学. 预计毕业 · 2027 年 
     <div class="paper-box-text"><h3>Cluster-Aware Attention-Based Deep Reinforcement Learning for Pickup and Delivery Problems</h3><p class="publication-meta">共同第一作者 · 导师：大连理工大学 Guangyu Zou 教授<br>2025.09 – 2026.07</p><p>本项目面向具有空间聚类结构的取送货问题，在配对与先后顺序约束下构建 CAADRL 模型。通过全局自注意力和簇内注意力提取多尺度空间特征，再以分层解码器处理簇内路径选择与簇间转移。</p><p class="project-contribution"><strong>个人分工:</strong> 我负责 NCS 基线复现、消融实验设计与分析及实验图表制作，并参与不同问题规模与数据分布下的评估。</p><div class="pub-links">
 <a href="https://github.com/2369787465a-jpg/CluPDTSP/blob/main/Clupdtsp_main.pdf">论文 PDF</a><a href="https://github.com/2369787465a-jpg/CluPDTSP">代码</a><a href="https://arxiv.org/abs/2603.10053">arXiv 预印本</a></div></div>
   </article>
-  <article class="paper-box paper-box--wide">
-    <header class="paper-box-heading"><span class="badge">已录用</span><h3>MC-TRCM: Observation-Aware Recursive Fusion for Incomplete Mobile and Wearable Mental-Health Feature Views</h3><p class="publication-meta">共同第一作者 · 导师：大连理工大学 Guangyu Zou 教授<br>2026.04 – 2026.07</p></header>
+  <article class="paper-box paper-box--centered-split" data-project="mctrcm">
     <figure class="paper-box-figure"><a href="/assets/research/mctrcm-architecture.png" aria-label="查看完整研究配图 — MC-TRCM: Observation-Aware Recursive Fusion for Incomplete Mobile and Wearable Mental-Health Feature Views"><img src="/assets/research/mctrcm-architecture.png" alt="论文中的 MC-TRCM 架构，展示观测感知 token、特征融合与递归细化。" width="1443" height="505" loading="lazy" decoding="async"></a><figcaption class="figure-note">模型架构 · 论文原图 2</figcaption></figure>
-    <div class="paper-box-copy"><p>本项目提出 MC-TRCM，在大量缺失观测下融合异构移动设备与可穿戴特征。以特征源 token 和缺失感知门控结合条件化 Transformer，再通过递归解码细化预测；在 DepreST-CAT 与 PSYCHE-D 的六个回归和分类任务上开展评估。</p><p class="project-contribution"><strong>个人分工:</strong> 我参与多源数据处理、模型设计与实验验证，包括基线对比、消融实验，以及缺失模式建模和递归预测机制的分析。</p></div>
-    <div class="pub-links">
-<a href="https://github.com/2369787465a-jpg/MC-TRCM/blob/main/main.pdf">论文 PDF</a><a href="https://github.com/2369787465a-jpg/MC-TRCM">代码</a></div>
+    <div class="paper-box-text"><span class="badge">已录用</span><h3>MC-TRCM: Observation-Aware Recursive Fusion for Incomplete Mobile and Wearable Mental-Health Feature Views</h3><p class="publication-meta">共同第一作者 · 导师：大连理工大学 Guangyu Zou 教授<br>2026.04 – 2026.07</p><p>本项目提出 MC-TRCM，在大量缺失观测下融合异构移动设备与可穿戴特征。以特征源 token 和缺失感知门控结合条件化 Transformer，再通过递归解码细化预测；在 DepreST-CAT 与 PSYCHE-D 的六个回归和分类任务上开展评估。</p><p class="project-contribution"><strong>个人分工:</strong> 我参与多源数据处理、模型设计与实验验证，包括基线对比、消融实验，以及缺失模式建模和递归预测机制的分析。</p><div class="pub-links">
+<a href="https://github.com/2369787465a-jpg/MC-TRCM/blob/main/main.pdf">论文 PDF</a><a href="https://github.com/2369787465a-jpg/MC-TRCM">代码</a></div></div>
   </article>
   <details class="publication-collapse more-research"><summary>更多研究项目</summary>
     <article class="timeline-card project-card project-card--publication project-card--illustrated" data-project="did">
