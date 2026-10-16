@@ -569,13 +569,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .profile_box .author__avatar { flex-shrink: 0; }
     .page { width: 100%; }
 }
-@media (max-width: 900px) {
-    .page__content .project-card--illustrated {
-        grid-template-columns: minmax(0, 1fr);
-        gap: 1.1rem;
-        .project-card-media { width: 100%; max-width: 480px; margin: 0 auto; }
-    }
-}
 @media (max-width: 767px) {
     #main { padding-left: 1rem; padding-right: 1rem; }
     .homepage-hero { padding: 1.35rem 1.2rem; border-radius: 24px; }
@@ -601,6 +594,20 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .profile_box .author__avatar img { min-width: 67px; }
     .profile_box img.author-avatar--portrait { width: 67px; border-radius: 12px; }
     .page__content {
+        .more-research { padding-left: 0.55rem; padding-right: 0.55rem; }
+        .project-card--illustrated {
+            grid-template-columns: minmax(0, 0.3fr) minmax(0, 0.7fr);
+            gap: 0.65rem;
+            padding: 0.75rem;
+            .project-card-media { width: 100%; }
+            .project-card-media .badge { font-size: 10px; padding: 0.25rem 0.45rem; }
+            .project-figure figcaption { font-size: 10px; line-height: 1.5; overflow-wrap: anywhere; }
+            .project-card-copy {
+                h3 { font-size: 16px; }
+                p { font-size: 13px; }
+                .timeline-meta { font-size: 12px; }
+            }
+        }
         .competition-grid, .course-grades { grid-template-columns: 1fr; }
         .awards-list li { grid-template-columns: minmax(0, 1fr); gap: 0.35rem; padding: 0.9rem; }
         .award-date { grid-column: 1; }
