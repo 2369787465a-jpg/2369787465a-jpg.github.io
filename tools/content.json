@@ -318,6 +318,14 @@
       "status": {
         "en": "Provincial project",
         "zh": "省级立项"
+      },
+      "contribution_label": {
+        "en": "Team participation",
+        "zh": "团队参与"
+      },
+      "contribution": {
+        "en": "I participated as a team member. At the proposal stage, the team's work included reviewing and comparing DACT and N2S, and defining the 2-opt/3-opt technical route and TSPLIB evaluation plan.",
+        "zh": "我以团队成员身份参与该项目。开题阶段的团队工作包括 DACT、N2S 等方法的文献梳理与比较，以及 2-opt/3-opt 技术路线和 TSPLIB 评估方案的设计。"
       }
     },
     {
