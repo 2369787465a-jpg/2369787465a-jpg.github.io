@@ -9,6 +9,9 @@ main:
   - title: "论文"
     url: "/zh/publications/"
 
+  - title: "本科"
+    url: "/zh/#education"
+
   - title: "学习"
     url: "/zh/#experience"
 

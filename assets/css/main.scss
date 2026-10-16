@@ -470,6 +470,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .publication-card h3 { line-height: 1.5; }
     .publication-card .publication-meta { font-weight: 400; }
     .education-metrics { font-weight: 700; color: var(--homepage-accent); }
+    .education-card .education-metrics { white-space: pre-line; }
     .institution-card-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.25rem; }
     .institution-card-text { min-width: 0; flex: 1; }
     .institution-logo { flex: 0 0 130px; display: flex; justify-content: center; padding-top: 0.15rem; }
@@ -602,6 +603,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
         .institution-card-heading { gap: 0.7rem; }
         .institution-logo { flex-basis: 82px; }
         .institution-logo img { max-width: 82px; max-height: 64px; }
+        .education-card .education-metrics { font-size: 14px; }
         .more-research { padding-left: 0.55rem; padding-right: 0.55rem; }
         .project-card--illustrated {
             grid-template-columns: minmax(0, 0.3fr) minmax(0, 0.7fr);

@@ -103,6 +103,12 @@
   <div class="section-actions"><a class="link-pill" href="{{ publications_url }}">{{ t.publications_cta }}</a></div>
 </section>
 
+<section aria-labelledby="education-heading">
+  <span class="anchor" id="education"></span>
+  <h2 id="education-heading">{{ t.education }}</h2>
+  {% for school in education %}<article class="timeline-card institution-card education-card"><header class="institution-card-heading"><div class="institution-card-text"><h3>{{ school.name[lang] }}</h3><p class="timeline-meta">{{ school.degree[lang] }} · {{ school.dates[lang] }}</p><p class="education-metrics">{{ school.metrics[lang] }}</p><p class="section-note">{{ school.note[lang] }}</p></div>{{ institution_logo(school.logo) }}</header></article>{% endfor %}
+</section>
+
 <section aria-labelledby="experience-heading">
   <span class="anchor" id="experience"></span>
   <h2 id="experience-heading">{{ t.experience_heading }}</h2>

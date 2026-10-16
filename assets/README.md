@@ -30,3 +30,7 @@ Original institution marks identify the corresponding education or experience. L
 - `institutions/neoscholar.png`: Direct crop from original course transcript p1 footer by course-proof reviewer; no redraw. [Institution website](https://itstp.neoscholar.com/).
 
 `evidence/itstp-data-analysis-92.png` is a reviewed crop of the owner's course transcript, excluding the student-number panel. It records Data Analysis, 92/100, and MIT as Prof. Gunther Roland's home institution. The course provider and transcript issuer are ITSTP / Neoscholar; its actual provider logo appears on the experience card.
+
+- `institutions/dalian-university-of-technology.png`: Official blue university seal PNG downloaded from official university logo page, re-encoded as PNG without visual alteration. [Institution website](https://www.dlut.edu.cn/info/1364/35309.htm).
+
+- `institutions/university-of-leicester.png`: Direct crop from official University of Leicester transcript header; no redraw. [Institution website](https://le.ac.uk/).

@@ -320,7 +320,10 @@
       "id": "ozone",
       "code": "https://github.com/2369787465a-jpg/Ozone-Downscaling",
       "pdf": "https://github.com/2369787465a-jpg/Ozone-Downscaling/blob/main/report.pdf",
-      "pdf_label": {"en": "Report PDF", "zh": "项目报告 PDF"}
+      "pdf_label": {
+        "en": "Report PDF",
+        "zh": "项目报告 PDF"
+      }
     },
     {
       "title": {
@@ -346,7 +349,70 @@
       "id": "asset-pricing"
     }
   ],
-  "education": [],
+  "education": [
+    {
+      "name": {
+        "en": "Dalian University of Technology",
+        "zh": "大连理工大学"
+      },
+      "degree": {
+        "en": "BSc in Foundations of Mathematical Science",
+        "zh": "数理基础科学理学学士"
+      },
+      "dates": {
+        "en": "Sep 2023 – Jun 2027 (expected)",
+        "zh": "2023.09 – 2027.06（预计）"
+      },
+      "metrics": {
+        "en": "Average: 93.50/100\nGPA: 4.35/5.0",
+        "zh": "平均成绩：93.50/100\nGPA：4.35/5.0"
+      },
+      "note": {
+        "en": "Joint degree program with the University of Leicester",
+        "zh": "与莱斯特大学合作办学项目"
+      },
+      "logo": {
+        "image": "/assets/institutions/dalian-university-of-technology.png",
+        "width": 287,
+        "height": 287,
+        "alt": {
+          "en": "Dalian University of Technology",
+          "zh": "大连理工大学"
+        }
+      }
+    },
+    {
+      "name": {
+        "en": "University of Leicester",
+        "zh": "莱斯特大学"
+      },
+      "degree": {
+        "en": "BSc in Mathematics",
+        "zh": "数学理学学士"
+      },
+      "dates": {
+        "en": "Sep 2023 – Jun 2027 (expected)",
+        "zh": "2023.09 – 2027.06（预计）"
+      },
+      "metrics": {
+        "en": "Year 1: 90.62/100\nYear 2: 90.48/100",
+        "zh": "第一学年：90.62/100\n第二学年：90.48/100"
+      },
+      "note": {
+        "en": "Expected First Class Honours",
+        "zh": "预计获得一等荣誉学位"
+      },
+      "logo": {
+        "image": "/assets/institutions/university-of-leicester.png",
+        "width": 522,
+        "height": 158,
+        "alt": {
+          "en": "University of Leicester",
+          "zh": "莱斯特大学"
+        }
+      }
+    }
+  ],
   "experience": [
     {
       "title": {
@@ -652,7 +718,7 @@
       "home": "Overview",
       "pubs": "Publications",
       "research": "Research",
-      "education": "Education",
+      "education": "Undergraduate education",
       "experience": "Experience",
       "awards": "Honors & awards",
       "contact": "Contact",
@@ -718,7 +784,7 @@
       "home": "概览",
       "pubs": "论文",
       "research": "研究",
-      "education": "教育",
+      "education": "本科教育",
       "experience": "经历",
       "awards": "荣誉与奖励",
       "contact": "联系",
