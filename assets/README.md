@@ -1,6 +1,6 @@
 # Image sources
 
-Research figures are faithful screenshots of the author's original manuscripts and reports, with no redrawing:
+Research images are faithful screenshots or original embedded figures from the supplied manuscripts, reports, and presentation, with no redrawing. Sources and attribution are listed below:
 
 - `research/clupdtsp-architecture.png`: CAADRL manuscript, Fig. 2. [Manuscript](https://github.com/2369787465a-jpg/CluPDTSP/blob/main/Clupdtsp_main.pdf).
 - `research/mctrcm-architecture.png`: MC-TRCM manuscript, Fig. 2. [Manuscript](https://github.com/2369787465a-jpg/MC-TRCM/blob/main/main.pdf).
@@ -8,6 +8,8 @@ Research figures are faithful screenshots of the author's original manuscripts a
 - `research/cybercrime-gdp-cluster.png`: the same CIPAE paper's Fig. 3, printed p. 76: a scatterplot matrix for the low-GDP country cluster. Retained as a supplementary original-paper figure.
 - `research/cybercrime-cluster-clouds.png`: *Cybersecurity Strategy Study Based on Data Analysis and Policy Effects*, the owner-supplied original 2025 modeling report, Fig. 10 on printed p. 8 (PDF p. 9). Direct 300-dpi screenshot of the three K-means cybercrime-rate country-cluster word clouds and original figure caption. This is the displayed image for the folded CIPAE research project; it comes from the original modeling report, not the six-page published CIPAE paper. The crop excludes the team-number header.
 - `research/ozone-regridding.png`: *A Physics-Consistent Machine Learning Framework for High-Resolution Ozone Downscaling in the Greater Bay Area*, Fig. 1, report p. 5. Wentao Wang, Lifeng Han, Chenxi Pan. A project report; the image illustrates spatial regridding.
+
+- `research/tsp-dact-reference.png`: Original 364×473 PNG embedded in slide 7 of the owner-supplied provincial innovation project opening-defense presentation; copied byte for byte without editing. The slide attributes this DACT reference architecture to Yining Ma et al., *Learning to Iteratively Solve Routing Problems with Dual-Aspect Collaborative Transformer*, [arXiv:2110.02544](https://arxiv.org/abs/2110.02544). This illustrates a method cited by the project, rather than a new architecture or result created by the project team. Figure rights remain with the original authors.
 
 Competition images are the unmodified official header images linked from the corresponding Kaggle pages:
 

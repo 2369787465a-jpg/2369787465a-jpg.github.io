@@ -301,7 +301,19 @@
       "summary": {
         "en": "A provincial undergraduate innovation project on improvement-based deep reinforcement learning for the traveling salesman problem. The proposed solver combines a dual-aspect Transformer and cyclic positional encoding with PPO training and 2-opt/3-opt local search. The evaluation plan uses TSPLIB instances to examine solution quality, runtime, and generalization against classical and neural solvers.",
         "zh": "省级大学生创新训练项目，研究旅行商问题（TSP）的改进型深度强化学习求解方法。方案将双视角 Transformer 与循环位置编码相结合，采用 PPO 训练，并融入 2-opt/3-opt 局部搜索。计划基于 TSPLIB 实例，对求解质量、运行时间与泛化能力开展比较评估。"
-      }
+      },
+      "image": "/assets/research/tsp-dact-reference.png",
+      "image_width": 364,
+      "image_height": 473,
+      "alt": {
+        "en": "DACT literature reference architecture cited in the project proposal: separate node and positional embeddings, a dual-aspect collaborative encoder and decoder, and iterative tour improvement.",
+        "zh": "开题材料引用的 DACT 参考架构：节点与位置特征分别嵌入，经双视角协作编码器、解码器进行路径迭代改进。"
+      },
+      "image_caption": {
+        "en": "DACT reference architecture cited in the project proposal · Ma et al.",
+        "zh": "开题材料引用的 DACT 架构 · Ma 等"
+      },
+      "image_source": "https://arxiv.org/abs/2110.02544"
     },
     {
       "title": {
