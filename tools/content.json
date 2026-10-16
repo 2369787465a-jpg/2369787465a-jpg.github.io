@@ -320,12 +320,12 @@
         "zh": "省级立项"
       },
       "contribution_label": {
-        "en": "Team participation",
-        "zh": "团队参与"
+        "en": "My contribution",
+        "zh": "个人贡献"
       },
       "contribution": {
-        "en": "I participated as a team member. At the proposal stage, the team's work included reviewing and comparing DACT and N2S, and defining the 2-opt/3-opt technical route and TSPLIB evaluation plan.",
-        "zh": "我以团队成员身份参与该项目。开题阶段的团队工作包括 DACT、N2S 等方法的文献梳理与比较，以及 2-opt/3-opt 技术路线和 TSPLIB 评估方案的设计。"
+        "en": "I reviewed and compared DACT and N2S; contributed to the 2-opt/3-opt action-space design and PPO training plan; prepared TSPLIB instances, reproduced baseline code, and ran experiments; and organized evaluation metrics, comparison baselines, and the experimental protocol.",
+        "zh": "我梳理并比较 DACT 与 N2S 方法，参与 2-opt/3-opt 动作空间和 PPO 训练方案设计；完成 TSPLIB 数据准备、基线代码复现与实验运行，并整理评价指标、对比基线和实验方案。"
       }
     },
     {
