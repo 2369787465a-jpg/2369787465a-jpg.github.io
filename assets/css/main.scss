@@ -451,10 +451,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .pub-links { margin-top: 1.15rem; }
 }
 .paper-box.paper-box--centered-split {
+    position: relative;
     display: grid;
     grid-template-columns: minmax(0, 0.44fr) minmax(0, 0.56fr);
     align-items: stretch;
     gap: 1.35rem;
+    .paper-box-status { position: absolute; top: 1.35rem; left: 1.35rem; margin: 0; }
     .paper-box-figure {
         display: grid;
         grid-template-rows: minmax(0, 1fr) auto minmax(0, 1fr);
@@ -612,11 +614,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .paper-box.paper-box--centered-split {
         grid-template-columns: minmax(0, 0.32fr) minmax(0, 0.68fr);
         gap: 0.65rem; padding: 0.75rem;
+        .paper-box-status { top: 0.75rem; left: 0.75rem; font-size: 10px; padding: 0.25rem 0.45rem; }
         .paper-box-text {
             h3 { font-size: 16px; line-height: 1.5; }
             p { font-size: 13px; }
             .publication-meta { font-size: 12px; }
-            .badge { font-size: 10px; padding: 0.25rem 0.45rem; }
         }
         .figure-note { font-size: 10px; line-height: 1.5; overflow-wrap: anywhere; }
     }

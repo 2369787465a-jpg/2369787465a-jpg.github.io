@@ -69,8 +69,9 @@
   {% for project in featured %}{% set p = publication_by_id[project.publication] %}
   {% if project.layout == 'centered-split' %}
   <article class="paper-box paper-box--centered-split" data-project="{{ project.publication }}">
+    <span class="badge paper-box-status">{{ p.status[lang] }}</span>
     <figure class="paper-box-figure"><a href="{{ project.image }}" aria-label="{{ t.openimage }} — {{ p.title }}"><img src="{{ project.image }}" alt="{{ project.alt[lang] }}" width="{{ project.image_width }}" height="{{ project.image_height }}" loading="lazy" decoding="async"></a><figcaption class="figure-note">{{ project.figure_caption[lang] }}</figcaption></figure>
-    <div class="paper-box-text"><span class="badge">{{ p.status[lang] }}</span><h3>{{ p.title }}</h3><p class="publication-meta">{{ project.role[lang] }}<br>{{ project.dates[lang] }}</p><p>{{ project.description[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{{ paper_links(p) }}</div>
+    <div class="paper-box-text"><h3>{{ p.title }}</h3><p class="publication-meta">{{ project.role[lang] }}<br>{{ project.dates[lang] }}</p><p>{{ project.description[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{{ paper_links(p) }}</div>
   </article>
   {% elif project.layout == 'wide' %}
   <article class="paper-box paper-box--wide">
