@@ -125,8 +125,8 @@ redirect_from: ["/about/", "/about.html"]
 </section>
 <section class="early-programming" aria-labelledby="early-programming-heading">
   <h2 id="early-programming-heading">Early independent programming</h2>
-  <p class="timeline-meta">Lua scripting · Mini World · Started 2020</p>
-  <p>In my first year of high school, I began exploring programming through Lua scripts in Mini World, customizing maps and implementing different game modes. These interactive projects gave me an early opportunity to build something that other people could use.</p>
+  <p class="timeline-meta">Lua scripting · mini technology · Started 2020</p>
+  <p>In my first year of high school, I began exploring programming through Lua scripts in mini technology, customizing maps and implementing different game modes. These interactive projects gave me an early opportunity to build something that other people could use.</p>
   <dl class="early-programming-metrics"><div><dt>Downloads</dt><dd>2,226,777</dd></div><div><dt>Plays</dt><dd>2,595,700</dd></div></dl>
   <p class="section-note">Creator-page totals across published works, as shown in the screenshot.</p>
   <a class="evidence-link" href="/assets/evidence/mini-world-creator-stats.png" aria-label="View supporting document: Early independent programming"><span>View creator-page screenshot</span></a>

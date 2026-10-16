@@ -124,8 +124,8 @@ sidebar_intro: "莱斯特大学 · 大连理工大学. 预计毕业 · 2027 年 
 </section>
 <section class="early-programming" aria-labelledby="early-programming-heading">
   <h2 id="early-programming-heading">早期独立编程实践</h2>
-  <p class="timeline-meta">Lua 脚本 · 迷你世界 · 始于 2020 年</p>
-  <p>高一时，我开始通过迷你世界中的 Lua 脚本深入接触编程，编辑地图并实现多种自定义游戏模式。这让我较早地将编程用于可以让他人实际体验的作品。</p>
+  <p class="timeline-meta">Lua 脚本 · mini科技 · 始于 2020 年</p>
+  <p>高一时，我开始通过mini科技中的 Lua 脚本深入接触编程，编辑地图并实现多种自定义游戏模式。这让我较早地将编程用于可以让他人实际体验的作品。</p>
   <dl class="early-programming-metrics"><div><dt>次下载</dt><dd>2,226,777</dd></div><div><dt>次游玩</dt><dd>2,595,700</dd></div></dl>
   <p class="section-note">截图所示创作者页面全部作品累计数据。</p>
   <a class="evidence-link" href="/assets/evidence/mini-world-creator-stats.png" aria-label="查看证明材料: 早期独立编程实践"><span>查看创作者页面截图</span></a>

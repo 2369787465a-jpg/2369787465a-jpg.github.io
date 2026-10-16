@@ -1073,12 +1073,12 @@
       "zh": "早期独立编程实践"
     },
     "subtitle": {
-      "en": "Lua scripting · Mini World · Started 2020",
-      "zh": "Lua 脚本 · 迷你世界 · 始于 2020 年"
+      "en": "Lua scripting · mini technology · Started 2020",
+      "zh": "Lua 脚本 · mini科技 · 始于 2020 年"
     },
     "summary": {
-      "en": "In my first year of high school, I began exploring programming through Lua scripts in Mini World, customizing maps and implementing different game modes. These interactive projects gave me an early opportunity to build something that other people could use.",
-      "zh": "高一时，我开始通过迷你世界中的 Lua 脚本深入接触编程，编辑地图并实现多种自定义游戏模式。这让我较早地将编程用于可以让他人实际体验的作品。"
+      "en": "In my first year of high school, I began exploring programming through Lua scripts in mini technology, customizing maps and implementing different game modes. These interactive projects gave me an early opportunity to build something that other people could use.",
+      "zh": "高一时，我开始通过mini科技中的 Lua 脚本深入接触编程，编辑地图并实现多种自定义游戏模式。这让我较早地将编程用于可以让他人实际体验的作品。"
     },
     "metrics": [
       {
