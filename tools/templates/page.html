@@ -88,8 +88,8 @@
   {% endfor %}
   <details class="publication-collapse more-research"><summary>{{ t.more_projects }}</summary>
     {% for project in projects %}
-    <article class="timeline-card project-card{% if project.publication %} project-card--publication{% endif %}{% if project.image %} project-card--illustrated{% endif %}" data-project="{{ project.id }}">
-      {% if project.image %}<div class="project-card-media">{% if project.publication %}<span class="badge">{{ publication_by_id[project.publication].status[lang] }}</span>{% endif %}{{ project_figure(project) }}</div>{% endif %}
+    <article class="timeline-card project-card{% if project.publication %} project-card--publication{% endif %}{% if project.image %} project-card--illustrated{% endif %}{% if project.get('layout') == 'compact-figure' %} project-card--compact-figure{% endif %}" data-project="{{ project.id }}">
+      {% if project.image %}<div class="project-card-media">{% if project.publication %}<span class="badge">{{ publication_by_id[project.publication].status[lang] }}</span>{% elif project.get('status') %}<span class="badge project-level-badge">{{ project.status[lang] }}</span>{% endif %}{{ project_figure(project) }}</div>{% endif %}
       <div class="project-card-copy"><h3>{{ project.title[lang] }}</h3><p class="timeline-meta">{{ project.role[lang] }} · {{ project.dates[lang] }}</p><p>{{ project.summary[lang] }}</p>{% if project.contribution %}<p class="project-contribution"><strong>{{ t.contribution }}:</strong> {{ project.contribution[lang] }}</p>{% endif %}{% if project.publication %}{{ paper_links(publication_by_id[project.publication]) }}{% elif project.pdf or project.code %}{{ paper_links(project) }}{% endif %}</div>
     </article>
     {% endfor %}

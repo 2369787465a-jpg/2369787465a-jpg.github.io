@@ -295,8 +295,8 @@
         "zh": "2025 年"
       },
       "role": {
-        "en": "Team member · Provincial Undergraduate Innovation Training Project · Advisor: Prof. Guangyu Zou, DUT",
-        "zh": "团队成员 · 省级大学生创新训练项目 · 导师：大连理工大学邹广宇教授"
+        "en": "Team member · Advisor: Prof. Guangyu Zou, DUT",
+        "zh": "团队成员 · 导师：大连理工大学邹广宇教授"
       },
       "summary": {
         "en": "A provincial undergraduate innovation project on improvement-based deep reinforcement learning for the traveling salesman problem. The proposed solver combines a dual-aspect Transformer and cyclic positional encoding with PPO training and 2-opt/3-opt local search. The evaluation plan uses TSPLIB instances to examine solution quality, runtime, and generalization against classical and neural solvers.",
@@ -313,7 +313,12 @@
         "en": "DACT reference architecture cited in the project proposal · Ma et al.",
         "zh": "开题材料引用的 DACT 架构 · Ma 等"
       },
-      "image_source": "https://arxiv.org/abs/2110.02544"
+      "image_source": "https://arxiv.org/abs/2110.02544",
+      "layout": "compact-figure",
+      "status": {
+        "en": "Provincial project",
+        "zh": "省级立项"
+      }
     },
     {
       "title": {
