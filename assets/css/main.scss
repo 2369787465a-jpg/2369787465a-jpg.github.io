@@ -474,6 +474,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     .institution-card-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.25rem; }
     .institution-card-text { min-width: 0; flex: 1; }
     .institution-logo { flex: 0 0 130px; display: flex; justify-content: center; padding-top: 0.15rem; }
+    .education-card .institution-logo { align-self: center; padding-top: 0; }
     .institution-logo img { display: block; width: auto; max-width: 130px; max-height: 82px; height: auto; object-fit: contain; border: 0; border-radius: 0; box-shadow: none; background: #fff; }
     .coursework summary { cursor: pointer; color: var(--homepage-accent); font-size: 14px; }
     .coursework p { margin-top: 0.6rem; }

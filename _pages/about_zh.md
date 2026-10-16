@@ -102,9 +102,10 @@ sidebar_intro: "莱斯特大学 · 大连理工大学. 预计毕业 · 2027 年 
 <section aria-labelledby="education-heading">
   <span class="anchor" id="education"></span>
   <h2 id="education-heading">本科教育</h2>
-<article class="timeline-card institution-card education-card"><header class="institution-card-heading"><div class="institution-card-text"><h3>大连理工大学</h3><p class="timeline-meta">数理基础科学理学学士 · 2023.09 – 2027.06（预计）</p><p class="education-metrics">平均成绩：93.50/100
-GPA：4.35/5.0</p><p class="section-note">与莱斯特大学合作办学项目</p></div><div class="institution-logo"><img src="/assets/institutions/dalian-university-of-technology.png" alt="大连理工大学" width="287" height="287" loading="lazy" decoding="async"></div></header></article><article class="timeline-card institution-card education-card"><header class="institution-card-heading"><div class="institution-card-text"><h3>莱斯特大学</h3><p class="timeline-meta">数学理学学士 · 2023.09 – 2027.06（预计）</p><p class="education-metrics">第一学年：90.62/100
-第二学年：90.48/100</p><p class="section-note">预计获得一等荣誉学位</p></div><div class="institution-logo"><img src="/assets/institutions/university-of-leicester.png" alt="莱斯特大学" width="522" height="158" loading="lazy" decoding="async"></div></header></article></section>
+<article class="timeline-card institution-card education-card"><header class="institution-card-heading"><div class="institution-card-text"><h3>莱斯特大学</h3><p class="timeline-meta">数学理学学士 · 2023.09 – 2027.06（预计）</p><p class="education-metrics">第一学年：90.62/100
+第二学年：90.48/100
+排名：4/99</p><p class="section-note">预计获得一等荣誉学位</p></div><div class="institution-logo"><img src="/assets/institutions/university-of-leicester.png" alt="莱斯特大学" width="522" height="158" loading="lazy" decoding="async"></div></header></article><article class="timeline-card institution-card education-card"><header class="institution-card-heading"><div class="institution-card-text"><h3>大连理工大学</h3><p class="timeline-meta">数理基础科学理学学士 · 2023.09 – 2027.06（预计）</p><p class="education-metrics">平均成绩：93.50/100
+GPA：4.35/5.0</p><p class="section-note">与莱斯特大学合作办学项目</p></div><div class="institution-logo"><img src="/assets/institutions/dalian-university-of-technology.png" alt="大连理工大学" width="287" height="287" loading="lazy" decoding="async"></div></header></article></section>
 
 <section aria-labelledby="experience-heading">
   <span class="anchor" id="experience"></span>

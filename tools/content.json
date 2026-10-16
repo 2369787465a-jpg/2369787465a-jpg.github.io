@@ -352,6 +352,37 @@
   "education": [
     {
       "name": {
+        "en": "University of Leicester",
+        "zh": "莱斯特大学"
+      },
+      "degree": {
+        "en": "BSc in Mathematics",
+        "zh": "数学理学学士"
+      },
+      "dates": {
+        "en": "Sep 2023 – Jun 2027 (expected)",
+        "zh": "2023.09 – 2027.06（预计）"
+      },
+      "metrics": {
+        "en": "Year 1: 90.62/100\nYear 2: 90.48/100\nRank: 4/99",
+        "zh": "第一学年：90.62/100\n第二学年：90.48/100\n排名：4/99"
+      },
+      "note": {
+        "en": "Expected First Class Honours",
+        "zh": "预计获得一等荣誉学位"
+      },
+      "logo": {
+        "image": "/assets/institutions/university-of-leicester.png",
+        "width": 522,
+        "height": 158,
+        "alt": {
+          "en": "University of Leicester",
+          "zh": "莱斯特大学"
+        }
+      }
+    },
+    {
+      "name": {
         "en": "Dalian University of Technology",
         "zh": "大连理工大学"
       },
@@ -378,37 +409,6 @@
         "alt": {
           "en": "Dalian University of Technology",
           "zh": "大连理工大学"
-        }
-      }
-    },
-    {
-      "name": {
-        "en": "University of Leicester",
-        "zh": "莱斯特大学"
-      },
-      "degree": {
-        "en": "BSc in Mathematics",
-        "zh": "数学理学学士"
-      },
-      "dates": {
-        "en": "Sep 2023 – Jun 2027 (expected)",
-        "zh": "2023.09 – 2027.06（预计）"
-      },
-      "metrics": {
-        "en": "Year 1: 90.62/100\nYear 2: 90.48/100",
-        "zh": "第一学年：90.62/100\n第二学年：90.48/100"
-      },
-      "note": {
-        "en": "Expected First Class Honours",
-        "zh": "预计获得一等荣誉学位"
-      },
-      "logo": {
-        "image": "/assets/institutions/university-of-leicester.png",
-        "width": 522,
-        "height": 158,
-        "alt": {
-          "en": "University of Leicester",
-          "zh": "莱斯特大学"
         }
       }
     }
