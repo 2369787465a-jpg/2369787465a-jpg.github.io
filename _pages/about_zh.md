@@ -28,7 +28,7 @@ sidebar_intro: "莱斯特大学 · 大连理工大学. 预计毕业 · 2027 年 
 <div class="highlight-grid">
   <section class="highlight-card"><h3>研究方向</h3><p>强化学习与优化</p><p>多视图机器学习</p><p>数理统计</p></section>
   <section class="highlight-card"><h3>学术论文</h3><p>Applied Intelligence · 修回中</p><p>ICONIP 2026 · 已录用</p><p>CIPAE 2025 · 已发表</p></section>
-  <section class="highlight-card"><h3>研究代码</h3><p>CAADRL / CluPDTSP</p><p>MC-TRCM</p><p>臭氧降尺度 · Ozone-Downscaling</p><p>NIPT-Timing-Risk-Analysis</p></section>
+  <section class="highlight-card"><h3>研究代码</h3><p>CAADRL / CluPDTSP</p><p>MC-TRCM</p><p>臭氧降尺度 · Ozone-Downscaling</p></section>
 </div>
 
 <section aria-labelledby="research-heading">
@@ -65,10 +65,6 @@ sidebar_intro: "莱斯特大学 · 大连理工大学. 预计毕业 · 2027 年 
     </article>
     <article class="timeline-card project-card" data-project="asset-pricing">
       <div class="project-card-copy"><h3>实证资产定价与股票 Beta 预测</h3><p class="timeline-meta">项目负责人 · 导师：大连理工大学 Shuai Qiao 教授 · 2025.07 – 2026.01</p><p>基于 CSMAR 数据，运用投资组合排序、Fama–MacBeth 回归、多因子风险调整与 Newey–West 推断研究中国 A 股 MAX 异象，并探索机器学习动态 Beta 预测。</p><p class="project-contribution"><strong>个人分工:</strong> 我复现投资组合排序与 Fama–MacBeth 回归，完成金融数据清洗，并整理机器学习 Beta 预测的滚动训练与评估流程。</p></div>
-    </article>
-    <article class="timeline-card project-card project-card--illustrated" data-project="nipt">
-<div class="project-card-media"><figure class="project-figure"><a href="/assets/research/nipt-model-comparison.png" aria-label="查看完整图片: NIPT 个性化检测时点与非整倍体风险建模"><img src="/assets/research/nipt-model-comparison.png" alt="NIPT 原始建模报告图 14：三个柱状图比较逻辑回归、随机森林与 XGBoost。" width="1560" height="748" loading="lazy" decoding="async"></a><figcaption>原报告结果：三模型比较（图 14）</figcaption></figure></div>      <div class="project-card-copy"><h3>NIPT 个性化检测时点与非整倍体风险建模</h3><p class="timeline-meta">团队负责人 · 2025.09</p><p>结合回归、生存分析与 BMI 聚类优化 NIPT 个性化检测时点，权衡检测成功率与延迟检测风险；比较逻辑回归、随机森林与 XGBoost 开展 T13、T18、T21 风险判定，并通过交叉验证与蒙特卡洛模拟开展评估与稳健性分析。</p><p class="project-contribution"><strong>个人分工:</strong> 我重点完成数据清洗与特征工程、相关性与回归分析、生存模型构建与比较、BMI 聚类及检测时点优化，并参与 XGBoost 风险判定、交叉验证、蒙特卡洛稳健性分析与报告撰写。</p><div class="pub-links">
-<a href="https://github.com/2369787465a-jpg/NIPT-Timing-Risk-Analysis/blob/main/report.pdf">建模报告 PDF</a><a href="https://github.com/2369787465a-jpg/NIPT-Timing-Risk-Analysis">代码</a></div></div>
     </article>
   </details>
   <h3 class="subsection-heading">Kaggle 竞赛</h3>

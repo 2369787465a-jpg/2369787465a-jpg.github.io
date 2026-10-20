@@ -29,7 +29,7 @@ redirect_from: ["/about/", "/about.html"]
 <div class="highlight-grid">
   <section class="highlight-card"><h3>Research interests</h3><p>Reinforcement learning &amp; optimization</p><p>Multi-view machine learning</p><p>Mathematical statistics</p></section>
   <section class="highlight-card"><h3>Publications</h3><p>Applied Intelligence · Under revision</p><p>ICONIP 2026 · Accepted</p><p>CIPAE 2025 · Published</p></section>
-  <section class="highlight-card"><h3>Research code</h3><p>CAADRL / CluPDTSP</p><p>MC-TRCM</p><p>Ozone-Downscaling</p><p>NIPT-Timing-Risk-Analysis</p></section>
+  <section class="highlight-card"><h3>Research code</h3><p>CAADRL / CluPDTSP</p><p>MC-TRCM</p><p>Ozone-Downscaling</p></section>
 </div>
 
 <section aria-labelledby="research-heading">
@@ -66,10 +66,6 @@ redirect_from: ["/about/", "/about.html"]
     </article>
     <article class="timeline-card project-card" data-project="asset-pricing">
       <div class="project-card-copy"><h3>Empirical asset pricing &amp; beta prediction</h3><p class="timeline-meta">Project leader · Advisor: Prof. Shuai Qiao, DUT · Jul 2025 – Jan 2026</p><p>Studied the MAX anomaly in China’s A-share market using CSMAR data, portfolio sorting, Fama–MacBeth regressions, multifactor risk adjustment, and Newey–West inference; explored machine learning for dynamic beta prediction.</p><p class="project-contribution"><strong>My contribution:</strong> I reproduced portfolio sorts and Fama–MacBeth regressions, cleaned financial data, and documented rolling training and evaluation for machine-learning beta prediction.</p></div>
-    </article>
-    <article class="timeline-card project-card project-card--illustrated" data-project="nipt">
-<div class="project-card-media"><figure class="project-figure"><a href="/assets/research/nipt-model-comparison.png" aria-label="Open full image: Personalized NIPT Timing &amp; Aneuploidy Risk Modeling"><img src="/assets/research/nipt-model-comparison.png" alt="Original NIPT modeling report Figure 14: three bar charts comparing logistic regression, random forest, and XGBoost." width="1560" height="748" loading="lazy" decoding="async"></a><figcaption>Original report results: three-model comparison (Fig. 14)</figcaption></figure></div>      <div class="project-card-copy"><h3>Personalized NIPT Timing &amp; Aneuploidy Risk Modeling</h3><p class="timeline-meta">Team leader · Sep 2025</p><p>Combined regression, survival analysis, and BMI clustering to optimize NIPT testing times, balancing detection success and delayed-testing risk. Compared logistic regression, random forest, and XGBoost for T13/T18/T21 risk classification, with cross-validation and Monte Carlo robustness analysis.</p><p class="project-contribution"><strong>My contribution:</strong> My work focused on data cleaning and feature engineering, correlation and regression analyses, survival-model construction and comparison, BMI clustering, and testing-time optimization. I also contributed to XGBoost risk classification, cross-validation, Monte Carlo robustness analysis, and report writing.</p><div class="pub-links">
-<a href="https://github.com/2369787465a-jpg/NIPT-Timing-Risk-Analysis/blob/main/report.pdf">Modeling report PDF</a><a href="https://github.com/2369787465a-jpg/NIPT-Timing-Risk-Analysis">Code</a></div></div>
     </article>
   </details>
   <h3 class="subsection-heading">Kaggle competitions</h3>

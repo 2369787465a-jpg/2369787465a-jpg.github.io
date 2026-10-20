@@ -11,7 +11,6 @@ Research images are faithful screenshots or original embedded figures from the s
 
 - `research/tsp-dact-reference.png`: Original 364×473 PNG embedded in slide 7 of the owner-supplied provincial innovation project opening-defense presentation; copied byte for byte without editing. The slide attributes this DACT reference architecture to Yining Ma et al., *Learning to Iteratively Solve Routing Problems with Dual-Aspect Collaborative Transformer*, [arXiv:2110.02544](https://arxiv.org/abs/2110.02544). This illustrates a method cited by the project, rather than a new architecture or result created by the project team. Figure rights remain with the original authors.
 
-- `research/nipt-model-comparison.png`: Faithful 1560×748 screenshot of Fig. 14 from the owner's original 2025 CUMCM NIPT modeling report, comparing logistic regression, random forest, and XGBoost. Captioned as original report results, not a new reproduction result; copied without redrawing or further cropping. [Modeling report](https://github.com/2369787465a-jpg/NIPT-Timing-Risk-Analysis/blob/main/report.pdf).
 
 Competition images are the unmodified official header images linked from the corresponding Kaggle pages:
 

@@ -64,14 +64,12 @@
         "en": [
           "CAADRL / CluPDTSP",
           "MC-TRCM",
-          "Ozone-Downscaling",
-          "NIPT-Timing-Risk-Analysis"
+          "Ozone-Downscaling"
         ],
         "zh": [
           "CAADRL / CluPDTSP",
           "MC-TRCM",
-          "臭氧降尺度 · Ozone-Downscaling",
-          "NIPT-Timing-Risk-Analysis"
+          "臭氧降尺度 · Ozone-Downscaling"
         ]
       }
     }
@@ -393,47 +391,6 @@
         "zh": "我复现投资组合排序与 Fama–MacBeth 回归，完成金融数据清洗，并整理机器学习 Beta 预测的滚动训练与评估流程。"
       },
       "id": "asset-pricing"
-    },
-    {
-      "id": "nipt",
-      "title": {
-        "en": "Personalized NIPT Timing & Aneuploidy Risk Modeling",
-        "zh": "NIPT 个性化检测时点与非整倍体风险建模"
-      },
-      "dates": {
-        "en": "Sep 2025",
-        "zh": "2025.09"
-      },
-      "role": {
-        "en": "Team leader",
-        "zh": "团队负责人"
-      },
-      "summary": {
-        "en": "Combined regression, survival analysis, and BMI clustering to optimize NIPT testing times, balancing detection success and delayed-testing risk. Compared logistic regression, random forest, and XGBoost for T13/T18/T21 risk classification, with cross-validation and Monte Carlo robustness analysis.",
-        "zh": "结合回归、生存分析与 BMI 聚类优化 NIPT 个性化检测时点，权衡检测成功率与延迟检测风险；比较逻辑回归、随机森林与 XGBoost 开展 T13、T18、T21 风险判定，并通过交叉验证与蒙特卡洛模拟开展评估与稳健性分析。"
-      },
-      "contribution": {
-        "en": "My work focused on data cleaning and feature engineering, correlation and regression analyses, survival-model construction and comparison, BMI clustering, and testing-time optimization. I also contributed to XGBoost risk classification, cross-validation, Monte Carlo robustness analysis, and report writing.",
-        "zh": "我重点完成数据清洗与特征工程、相关性与回归分析、生存模型构建与比较、BMI 聚类及检测时点优化，并参与 XGBoost 风险判定、交叉验证、蒙特卡洛稳健性分析与报告撰写。"
-      },
-      "image": "/assets/research/nipt-model-comparison.png",
-      "image_width": 1560,
-      "image_height": 748,
-      "image_source": null,
-      "image_caption": {
-        "en": "Original report results: three-model comparison (Fig. 14)",
-        "zh": "原报告结果：三模型比较（图 14）"
-      },
-      "alt": {
-        "en": "Original NIPT modeling report Figure 14: three bar charts comparing logistic regression, random forest, and XGBoost.",
-        "zh": "NIPT 原始建模报告图 14：三个柱状图比较逻辑回归、随机森林与 XGBoost。"
-      },
-      "code": "https://github.com/2369787465a-jpg/NIPT-Timing-Risk-Analysis",
-      "pdf": "https://github.com/2369787465a-jpg/NIPT-Timing-Risk-Analysis/blob/main/report.pdf",
-      "pdf_label": {
-        "en": "Modeling report PDF",
-        "zh": "建模报告 PDF"
-      }
     }
   ],
   "education": [
